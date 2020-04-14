@@ -13,6 +13,8 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import "./App.css";
 import Research from "./Research";
 import Home from "./Home";
+import Projects from "./Projects";
+import image from "./1200px-UKZN_logo.svg.png"
 
 export default class App extends React.Component {
   render() {
@@ -27,31 +29,45 @@ export default class App extends React.Component {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
                 <NavDropdown title="Research" id="basic-nav-dropdown">
-                  <NavDropdown.Item><Link className="link" to="/publications">
-                    Publications
-                  </Link></NavDropdown.Item>
-                  <NavDropdown.Item><Link className="link" to="/projects">
-                    Projects
-                  </Link></NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link className="link" to="/publications">
+                      Publications
+                    </Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link className="link" to="/projects">
+                      Projects
+                    </Link>
+                  </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Teaching" id="basic-nav-dropdown">
-                  <NavDropdown.Item><Link className="link" to="/publications">
-                    Graduated Students
-                  </Link></NavDropdown.Item>
-                  <NavDropdown.Item><Link className="link" to="/projects">
-                    Curriculum Development
-                  </Link></NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link className="link" to="/publications">
+                      Graduated Students
+                    </Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link className="link" to="/projects">
+                      Curriculum Development
+                    </Link>
+                  </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Experience" id="basic-nav-dropdown">
-                  <NavDropdown.Item><Link className="link" to="/publications">
-                    Conferences
-                  </Link></NavDropdown.Item>
-                  <NavDropdown.Item><Link className="link" to="/projects">
-                    Seminars
-                  </Link></NavDropdown.Item>
-                  <NavDropdown.Item><Link className="link" to="/projects">
-                    Editorial Roles
-                  </Link></NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link className="link" to="/publications">
+                      Conferences
+                    </Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link className="link" to="/projects">
+                      Seminars
+                    </Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link className="link" to="/projects">
+                      Editorial Roles
+                    </Link>
+                  </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link>
                   <Link className="link" to="/teaching">
@@ -60,6 +76,14 @@ export default class App extends React.Component {
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
+            <Navbar.Brand href="https://www.ukzn.ac.za/">
+              <img
+                src={image}
+                width="120"
+                height="44"
+                className="d-inline-block align-top"
+              />
+            </Navbar.Brand>
           </Navbar>
           <div>
             <Switch>
@@ -69,9 +93,13 @@ export default class App extends React.Component {
               <Route path="/research">
                 <Research />
               </Route>
+              <Route path="/projects">
+                <Projects />
+              </Route>
+              <Route path="/publications">
+              </Route>
             </Switch>
           </div>
-
         </div>
 
         {/* A <Switch> looks through its children <Route>s and

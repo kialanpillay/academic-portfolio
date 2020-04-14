@@ -14,10 +14,10 @@ export default class Home extends React.Component {
     return (
       <div className="App-body">
         <Jumbotron id="jumbo">
-          <h1>Academic.  Researcher.  Social Scientist</h1>
+          <h1>Academic. Researcher.  Social Scientist.</h1>
           <h4 id="name">Professor Maheshvari Naidu</h4>
           <p>
-            BA <i>UDW</i>, BA Hons (cum laude), MA (cum laude), PhD <i>UKZN</i>
+            BA <i>UDW</i>, BA Hons (Cum Laude), MA (Cum Laude), PhD <i>UKZN</i>
           </p>
         </Jumbotron>
         <Container
@@ -82,7 +82,7 @@ export default class Home extends React.Component {
                 <Card.Body>
                   <Card.Title>Research</Card.Title>
                   <Card.Text>Explore my publications and projects.</Card.Text>
-                  <Button className="button" href="/research" variant="warning">
+                  <Button className="button" href="/research" variant="outline-warning">
                     Explore
                   </Button>
                 </Card.Body>
@@ -101,7 +101,7 @@ export default class Home extends React.Component {
                   <Card.Text>
                     Explore my students and curricula.
                   </Card.Text>
-                  <Button className="button" variant="warning">
+                  <Button className="button" variant="outline-warning">
                     Explore
                   </Button>
                 </Card.Body>
@@ -117,8 +117,8 @@ export default class Home extends React.Component {
               >
                 <Card.Body>
                   <Card.Title>Awards</Card.Title>
-                  <Card.Text>Explore my awards and accolades.</Card.Text>
-                  <Button className="button" variant="warning">
+                  <Card.Text>Explore my awards and honours.</Card.Text>
+                  <Button className="button" variant="outline-warning">
                     Explore
                   </Button>
                 </Card.Body>

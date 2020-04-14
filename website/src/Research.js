@@ -2,11 +2,8 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import CardDeck from "react-bootstrap/CardDeck";
-import Jumbotron from "react-bootstrap/Jumbotron";
 import "./App.css";
 
 export default class Research extends React.Component {
@@ -42,8 +39,8 @@ export default class Research extends React.Component {
           </Row>
           <Row>
             <Col md="auto">
-              <Button className="button" variant="warning" size="lg">
-                View Prof. Naidu's Publications
+              <Button className="button" variant="outline-warning" size="lg">
+                View My Publications
               </Button>
             </Col>
           </Row>
@@ -58,8 +55,8 @@ export default class Research extends React.Component {
           </Row>
           <Row>
             <Col md="auto">
-              <Button className="button" variant="warning" size="lg">
-                View Prof. Naidu's Projects
+              <Button className="button" variant="outline-warning" size="lg" href="/projects">
+                View My Projects
               </Button>
             </Col>
           </Row>

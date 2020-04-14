@@ -33,7 +33,7 @@ html {
 
 .largeHeading {
   text-align: left;
-  color: whitesmoke;
+  color:  #f6c444;;
   margin-left: 0.5rem;
   font-size: 5rem;
   font-weight: 600;
@@ -59,6 +59,22 @@ html {
 .link:hover {
   color: #f6c444;
   text-decoration: none;
+}
+
+.projectContent {
+  text-align: justify;
+  font-size: 1rem;
+  width: 50rem;
+  display: inline-block;
+}
+
+.projectSubtitle {
+  font-weight: 700;
+  color: #f6c444;
+}
+
+.projectYear {
+  margin-bottom: 2rem;
 }
 
 #name {
