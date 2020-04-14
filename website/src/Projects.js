@@ -4,7 +4,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Carousel from "react-bootstrap/Carousel";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 import "./App.css";
 
 export default class Projects extends React.Component {
@@ -28,8 +27,8 @@ export default class Projects extends React.Component {
           <Row>
             <Carousel
               style={{
-                width: "68rem",
                 height: "30rem",
+                width: "100%",
                 color: "whitesmoke",
               }}
             >
@@ -126,7 +125,6 @@ export default class Projects extends React.Component {
               <Carousel.Item
                 style={{
                   marginTop: "4rem",
-                  alignItems: "center",
                 }}
               >
                 <h1>Paleo-anthropology and African Identity</h1>

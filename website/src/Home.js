@@ -5,7 +5,6 @@ import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import CardDeck from "react-bootstrap/CardDeck";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import "./App.css";
 
@@ -14,7 +13,7 @@ export default class Home extends React.Component {
     return (
       <div className="App-body">
         <Jumbotron id="jumbo">
-          <h1>Academic. Researcher.  Social Scientist.</h1>
+          <h1>Academic. Researcher. Social Scientist.</h1>
           <h4 id="name">Professor Maheshvari Naidu</h4>
           <p>
             BA <i>UDW</i>, BA Hons (Cum Laude), MA (Cum Laude), PhD <i>UKZN</i>
@@ -27,11 +26,7 @@ export default class Home extends React.Component {
         >
           <h2 className="heading">Profile</h2>
           <Row>
-            <div
-              style={{
-                height: "20rem",
-              }}
-            >
+            <div>
               <Card.Body>
                 <Card.Text id="bio">
                   Professor Naidu is an NRF Rated Scientist who has received
@@ -77,12 +72,17 @@ export default class Home extends React.Component {
                 style={{
                   textAlign: "left",
                   width: "21rem",
+                  marginBottom: "1rem",
                 }}
               >
                 <Card.Body>
                   <Card.Title>Research</Card.Title>
                   <Card.Text>Explore my publications and projects.</Card.Text>
-                  <Button className="button" href="/research" variant="outline-warning">
+                  <Button
+                    className="button"
+                    href="/research"
+                    variant="outline-warning"
+                  >
                     Explore
                   </Button>
                 </Card.Body>
@@ -94,13 +94,12 @@ export default class Home extends React.Component {
                 style={{
                   textAlign: "left",
                   width: "21rem",
+                  marginBottom: "1rem",
                 }}
               >
                 <Card.Body>
                   <Card.Title>Teaching</Card.Title>
-                  <Card.Text>
-                    Explore my students and curricula.
-                  </Card.Text>
+                  <Card.Text>Explore my students and curricula.</Card.Text>
                   <Button className="button" variant="outline-warning">
                     Explore
                   </Button>
@@ -113,6 +112,7 @@ export default class Home extends React.Component {
                 style={{
                   textAlign: "left",
                   width: "21rem",
+                  marginBottom: "1rem",
                 }}
               >
                 <Card.Body>

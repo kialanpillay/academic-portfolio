@@ -1,11 +1,5 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-import Jumbotron from "react-bootstrap/Jumbotron";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -14,6 +8,7 @@ import "./App.css";
 import Research from "./Research";
 import Home from "./Home";
 import Projects from "./Projects";
+import Conferences from "./Conferences"
 import image from "./1200px-UKZN_logo.svg.png"
 
 export default class App extends React.Component {
@@ -54,23 +49,23 @@ export default class App extends React.Component {
                 </NavDropdown>
                 <NavDropdown title="Experience" id="basic-nav-dropdown">
                   <NavDropdown.Item>
-                    <Link className="link" to="/publications">
+                    <Link className="link" to="/conferences">
                       Conferences
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Link className="link" to="/projects">
+                    <Link className="link" to="/seminars">
                       Seminars
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Link className="link" to="/projects">
+                    <Link className="link" to="/editorials">
                       Editorial Roles
                     </Link>
                   </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link>
-                  <Link className="link" to="/teaching">
+                  <Link className="link" to="/awards">
                     Awards
                   </Link>
                 </Nav.Link>
@@ -82,6 +77,7 @@ export default class App extends React.Component {
                 width="120"
                 height="44"
                 className="d-inline-block align-top"
+                alt="UKZN Logo"
               />
             </Navbar.Brand>
           </Navbar>
@@ -95,6 +91,9 @@ export default class App extends React.Component {
               </Route>
               <Route path="/projects">
                 <Projects />
+              </Route>
+              <Route path="/conferences">
+                <Conferences />
               </Route>
               <Route path="/publications">
               </Route>
