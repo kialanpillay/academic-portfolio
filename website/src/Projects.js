@@ -7,11 +7,7 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import "./App.css";
 
-export default class Research extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
+export default class Projects extends React.Component {
   render() {
     return (
       <div className="App-body">

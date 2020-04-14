@@ -7,10 +7,6 @@ import Button from "react-bootstrap/Button";
 import "./App.css";
 
 export default class Research extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="App-body">
