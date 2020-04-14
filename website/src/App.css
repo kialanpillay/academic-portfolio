@@ -1,38 +1,86 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #282c34;
+}
+/*#282c34*
+#cb444b*/
+.App-body {
+  color: #282c34;
 }
 
-.App-link {
-  color: #61dafb;
+html {
+  background-color: #282c34;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#brand {
+  display: inline;
+  letter-spacing: 0.1rem;
+}
+
+#jumbo {
+  background-image: linear-gradient(to right, rgba(255,0,0,0.3), rgba(246,195,68,1));
+  color: #282c34;
+}
+
+.heading {
+  text-align: left;
+  color: whitesmoke;
+  margin-left: 0.5rem;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.largeHeading {
+  text-align: left;
+  color: whitesmoke;
+  margin-left: 0.5rem;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.largeText {
+  text-align: left;
+  color: whitesmoke;
+  margin-left: 0.5rem;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+
+
+.button {
+  margin-top: 1rem;
+}
+
+.link {
+  color: #282c34;
+}
+.link:hover {
+  color: #f6c444;
+  text-decoration: none;
+}
+
+#name {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+#bio {
+  text-align: justify;
+  color: whitesmoke;
+  font-size: 1.1rem;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  width: 100%;
+  font-size: 0.6rem;
+  letter-spacing: 0.1rem;
+  text-align: left;
+  color: #f6c444;
+  width: 100%;
 }
