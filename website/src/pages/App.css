@@ -9,6 +9,11 @@
   color: #282c34;
 }
 
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 html {
   background-color: #282c34;
 }
@@ -45,6 +50,15 @@ html {
   margin-left: 0.5rem;
   font-size: 3rem;
   font-weight: 600;
+}
+
+.mediumText {
+  text-align: left;
+  color: whitesmoke;
+  margin-left: 0.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
 }
 
 

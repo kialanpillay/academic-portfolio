@@ -4,12 +4,12 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import "./App.css";
-import Research from "./Research";
-import Home from "./Home";
-import Projects from "./Projects";
-import Conferences from "./Conferences"
-import image from "./1200px-UKZN_logo.svg.png"
+import Research from "./pages/Research";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Conferences from "./pages/Conferences"
+import "./pages/App.css";
+import image from "./assets/1200px-UKZN_logo.svg.png"
 
 export default class App extends React.Component {
   render() {
