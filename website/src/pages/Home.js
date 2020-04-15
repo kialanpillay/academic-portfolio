@@ -126,6 +126,13 @@ export default class Home extends React.Component {
             </Col>
           </Row>
         </Container>
+        <footer id="footer">
+            WEB DESIGN:{" "}
+            <a className="footerLink" href="https://kialan.co.za">
+              KIALAN PILLAY
+            </a>{" "}
+            c/o ALPHA Q LABS.
+          </footer>
       </div>
     );
   }

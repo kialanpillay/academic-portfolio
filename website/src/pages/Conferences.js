@@ -47,6 +47,14 @@ function Conferences() {
             </div>
           </Col>
         </Row>
+        <Row
+          >
+            <Col md="auto">
+              <Button  variant="outline-warning" size="lg" href="/graduated">
+                View Details
+              </Button>
+            </Col>
+          </Row>
       </Container>
     </div>
   );
