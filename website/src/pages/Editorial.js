@@ -28,124 +28,235 @@ export default class Editorial extends React.Component {
               <h1 className="largeHeading">Editorial Roles</h1>
             </Col>
           </Row>
-          <Row>
-            <VerticalTimeline>
+          <Row
+            style={{
+              marginBottom: "4rem",
+            }}
+          >
+            <VerticalTimeline animate={false}>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "rgb(33, 150, 243)",
-                  color: "#fff",
+                  background: "rgb(245, 245, 245)",
+                  color: "#282c34",
                 }}
                 contentArrowStyle={{
-                  borderRight: "7px solid  rgb(33, 150, 243)",
+                  borderRight: "8px solid  rgb(245, 245, 245)",
                 }}
-                date="2011 - present"
-                iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                icon={<WorkIcon />}
+                iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
               >
                 <h3 className="vertical-timeline-element-title">
-                  Creative Director
+                  Co-Guest Editor
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
-                  Miami, FL
+                  <i>Oriental Anthropologist</i>
                 </h4>
+                <h4 className="vertical-timeline-element-subtitle">2016</h4>
                 <p>
-                  Creative Direction, User Experience, Visual Design, Project
-                  Management, Team Leading
+                  Special Issue of <i>Women in Global South</i> in Oriental
+                  Anthropologist. Collaborating editors Prof. M Mduna
+                  (University of Witwatersrand) &amp; Prof. S Manuel (Eduardo
+                  Mondle University Mozambique).
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2010 - 2011"
-                iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                icon={<WorkIcon />}
+                contentStyle={{
+                  background: "rgb(245, 245, 245)",
+                  color: "#282c34",
+                }}
+                contentArrowStyle={{
+                  borderRight: "8px solid  rgb(245, 245, 245)",
+                }}
+                date="2016"
+                iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
               >
                 <h3 className="vertical-timeline-element-title">
-                  Art Director
+                  Editorial Board
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
-                  San Francisco, CA
+                  <i>Alternation</i>
                 </h4>
+                <h4 className="vertical-timeline-element-subtitle">2015</h4>
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{
+                  background: "rgb(245, 245, 245)",
+                  color: "#282c34",
+                }}
+                contentArrowStyle={{
+                  borderRight: "8px solid  rgb(245, 245, 245)",
+                }}
+                iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
+              >
+                <h3 className="vertical-timeline-element-title">
+                  Guest Editor
+                </h3>
+                <h4 className="vertical-timeline-element-subtitle">
+                  <i>Anthropology</i>
+                </h4>
+                <h4 className="vertical-timeline-element-subtitle">2014</h4>
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{
+                  background: "rgb(245, 245, 245)",
+                  color: "#282c34",
+                }}
+                contentArrowStyle={{
+                  borderRight: "8px solid  rgb(245, 245, 245)",
+                }}
+                iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
+              >
+                <h3 className="vertical-timeline-element-title">
+                  Guest Editor
+                </h3>
+                <h4 className="vertical-timeline-element-subtitle">
+                  <i>Oriental Anthropologist</i>
+                </h4>
+                <h4 className="vertical-timeline-element-subtitle">2014</h4>
                 <p>
-                  Creative Direction, User Experience, Visual Design, SEO,
-                  Online Marketing
+                  Special Volume on <i>Feminisms, International</i> in Oriental
+                  Anthropologist.
+                </p>
+              </VerticalTimelineElement>
+
+              <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{
+                  background: "rgb(245, 245, 245)",
+                  color: "#282c34",
+                }}
+                contentArrowStyle={{
+                  borderRight: "8px solid  rgb(245, 245, 245)",
+                }}
+                iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
+              >
+                <h3 className="vertical-timeline-element-title">
+                  Guest Editor
+                </h3>
+                <h4 className="vertical-timeline-element-subtitle">
+                  <i>Journal of Religion in Southern Africa</i>
+                </h4>
+                <h4 className="vertical-timeline-element-subtitle">2013</h4>
+                <p>
+                  Special Issue of <i>Women in Spiritual Leadership</i> in
+                  Oriental Anthropologist.
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2008 - 2010"
-                iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                icon={<WorkIcon />}
+                contentStyle={{
+                  background: "rgb(245, 245, 245)",
+                  color: "#282c34",
+                }}
+                contentArrowStyle={{
+                  borderRight: "8px solid  rgb(245, 245, 245)",
+                }}
+                iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
               >
                 <h3 className="vertical-timeline-element-title">
-                  Web Designer
+                  Guest Editor
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
-                  Los Angeles, CA
+                  <i>Journal of Human Ecology</i>
                 </h4>
-                <p>User Experience, Visual Design</p>
+                <h4 className="vertical-timeline-element-subtitle">
+                  2013 - 2014
+                </h4>
+                <p>
+                  Special Themed Issue on Tourism in Special Volume:
+                  <i>
+                    {" "}
+                    Southern Africa: Human Ecology and Tourism Interactions
+                  </i>
+                  . SAPSE Accredited Journal.
+                </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2006 - 2008"
-                iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                icon={<WorkIcon />}
+                contentStyle={{
+                  background: "rgb(245, 245, 245)",
+                  color: "#282c34",
+                }}
+                contentArrowStyle={{
+                  borderRight: "8px solid  rgb(245, 245, 245)",
+                }}
+                iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
               >
                 <h3 className="vertical-timeline-element-title">
-                  Web Designer
+                  Guest Editor
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
-                  San Francisco, CA
+                  <i>Alternations: Mobilities and Transnationalism</i>
                 </h4>
-                <p>User Experience, Visual Design</p>
+                <h4 className="vertical-timeline-element-subtitle">
+                  2012 - 2013
+                </h4>
+                <p>Special Issue. SAPSE Accredited Journal.</p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                date="April 2013"
-                iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-                icon={<SchoolIcon />}
+                className="vertical-timeline-element--work"
+                contentStyle={{
+                  background: "rgb(245, 245, 245)",
+                  color: "#282c34",
+                }}
+                contentArrowStyle={{
+                  borderRight: "8px solid  rgb(245, 245, 245)",
+                }}
+                iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
               >
                 <h3 className="vertical-timeline-element-title">
-                  Content Marketing for Web, Mobile and Social Media
+                  Editorial Board
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
-                  Online Course
+                  <i>Noumenon: Journal for Transformative Work</i>
                 </h4>
-                <p>Strategy, Social Media</p>
+                <h4 className="vertical-timeline-element-subtitle">
+                  2005 - 2008
+                </h4>
               </VerticalTimelineElement>
               <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                date="November 2012"
-                iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-                icon={<SchoolIcon />}
+                className="vertical-timeline-element--work"
+                contentStyle={{
+                  background: "rgb(245, 245, 245)",
+                  color: "#282c34",
+                }}
+                contentArrowStyle={{
+                  borderRight: "8px solid  rgb(245, 245, 245)",
+                }}
+                iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
+              >
+                <h3 className="vertical-timeline-element-title">Editor</h3>
+                <h4 className="vertical-timeline-element-subtitle">
+                  <i>Nidan: International Journal for Hinduism</i>
+                </h4>
+                <h4 className="vertical-timeline-element-subtitle">2009</h4>
+                <p>SAPSE Accredited Journal.</p>
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{
+                  background: "rgb(245, 245, 245)",
+                  color: "#282c34",
+                }}
+                contentArrowStyle={{
+                  borderRight: "8px solid  rgb(245, 245, 245)",
+                }}
+                iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
               >
                 <h3 className="vertical-timeline-element-title">
-                  Agile Development Scrum Master
+                  Managing Editor
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
-                  Certification
+                  <i>Nidan: International Journal for Hinduism</i>
                 </h4>
-                <p>Creative Direction, User Experience, Visual Design</p>
-              </VerticalTimelineElement>
-              <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                date="2002 - 2006"
-                iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-                icon={<SchoolIcon />}
-              >
-                <h3 className="vertical-timeline-element-title">
-                  Bachelor of Science in Interactive Digital Media Visual
-                  Imaging
-                </h3>
                 <h4 className="vertical-timeline-element-subtitle">
-                  Bachelor Degree
+                  2007 - 2008
                 </h4>
-                <p>Creative Direction, Visual Design</p>
+                <p>SAPSE Accredited Journal.</p>
               </VerticalTimelineElement>
-              <VerticalTimelineElement
-                iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-                icon={<StarIcon />}
-              />
             </VerticalTimeline>
           </Row>
         </Container>
