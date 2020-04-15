@@ -11,7 +11,8 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "react-simple-maps": "^2.0.0",
-    "react-tooltip": "^4.2.3"
+    "react-tooltip": "^4.2.3",
+    "react-vertical-timeline-component": "^2.5.0"
   },
   "scripts": {
     "start": "react-scripts start",

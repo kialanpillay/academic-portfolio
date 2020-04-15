@@ -8,6 +8,8 @@ import Research from "./pages/Research";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Conferences from "./pages/Conferences"
+import Editorial from "./pages/Editorial";
+import Teaching from "./pages/Teaching";
 import "./pages/App.css";
 import image from "./assets/1200px-UKZN_logo.svg.png"
 
@@ -37,12 +39,12 @@ export default class App extends React.Component {
                 </NavDropdown>
                 <NavDropdown title="Teaching" id="basic-nav-dropdown">
                   <NavDropdown.Item>
-                    <Link className="link" to="/publications">
+                    <Link className="link" to="/graduated">
                       Graduated Students
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Link className="link" to="/projects">
+                    <Link className="link" to="/curriculum">
                       Curriculum Development
                     </Link>
                   </NavDropdown.Item>
@@ -91,6 +93,12 @@ export default class App extends React.Component {
                 <Conferences />
               </Route>
               <Route path="/publications">
+              </Route>
+              <Route path="/editorials">
+                <Editorial />
+              </Route>
+              <Route path="/teaching">
+                <Teaching />
               </Route>
             </Switch>
           </div>

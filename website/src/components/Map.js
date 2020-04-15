@@ -69,7 +69,7 @@ const Map = ({ setTooltipContent }) => {
           </Geographies>
         {markers.map(({ name, coordinates }) => (
           <Marker key={name} coordinates={coordinates}>
-            <circle r={5} fill="red" stroke="#fff" strokeWidth={1} />
+            <circle r={6} fill="red" stroke="#fff" strokeWidth={1} />
           </Marker>
         ))}
       </ComposableMap>
