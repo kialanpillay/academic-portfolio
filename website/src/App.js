@@ -50,17 +50,12 @@ export default class App extends React.Component {
                 <NavDropdown title="Experience" id="basic-nav-dropdown">
                   <NavDropdown.Item>
                     <Link className="link" to="/conferences">
-                      Conferences
-                    </Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link className="link" to="/seminars">
-                      Seminars
+                      Conferences &amp; Seminars
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
                     <Link className="link" to="/editorials">
-                      Editorial Roles
+                      Editorial Roles &amp; Service
                     </Link>
                   </NavDropdown.Item>
                 </NavDropdown>

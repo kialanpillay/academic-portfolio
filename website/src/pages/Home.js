@@ -13,7 +13,7 @@ export default class Home extends React.Component {
     return (
       <div className="App-body">
         <Jumbotron id="jumbo">
-          <h1>Academic. Researcher. Social Scientist.</h1>
+          <h1 id="tag">Academic. Researcher. Social Scientist.</h1>
           <h4 id="name">Professor Maheshvari Naidu</h4>
           <p>
             BA <i>UDW</i>, BA Hons (Cum Laude), MA (Cum Laude), PhD <i>UKZN</i>

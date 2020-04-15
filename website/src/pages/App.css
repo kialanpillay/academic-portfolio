@@ -26,6 +26,7 @@ html {
 #jumbo {
   background-image: linear-gradient(to right, rgba(255,0,0,0.3), rgba(246,195,68,1));
   color: #282c34;
+  max-height: 32vh;
 }
 
 .heading {
@@ -93,7 +94,7 @@ html {
 
 #name {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 #bio {

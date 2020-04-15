@@ -23,7 +23,7 @@ function Conferences() {
           }}
         >
           <Col md="auto">
-            <h1 className="largeHeading">Conferences</h1>
+            <h1 className="largeHeading">Conferences &amp; Seminars</h1>
           </Col>
         </Row>
         <Row>
@@ -38,8 +38,8 @@ function Conferences() {
           <Col>
             <div
               style={{
-                width: "90%",
-                height: "90%",
+                width: "100%",
+                height: "100%",
               }}
             >
               <Map setTooltipContent={setContent} />
