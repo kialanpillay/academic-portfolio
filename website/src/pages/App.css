@@ -66,6 +66,7 @@ html {
 
 .button {
   margin-top: 1rem;
+  text-align: left;
 }
 
 .link {
@@ -102,6 +103,17 @@ html {
   color: whitesmoke;
   font-size: 1.1rem;
 }
+
+.funderLink {
+  color: #282c34;
+}
+
+.funderLink:hover {
+  color: #282c34;
+  font-weight: 500;
+  text-decoration: none;
+}
+
 
 #footer {
   position: fixed;

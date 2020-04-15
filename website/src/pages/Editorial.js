@@ -21,7 +21,7 @@ export default class Editorial extends React.Component {
         >
           <Row
             style={{
-              marginTop: "4rem",
+              marginTop: "2rem",
             }}
           >
             <Col md="auto">
