@@ -42,7 +42,7 @@ export default class Projects extends React.Component {
                 <h3 className="projectSubtitle">UKZN</h3>
                 <h5 className="projectYear">2019 - 2021</h5>
                 <p className="projectContent">
-                  Principle Investigator (PI) of a three-year project Project
+                  R9 Million Grant. Principle Investigator (PI) of a three-year project Project
                   with two other PIs (Prof. Kavilan Moodley - Astrophysics and
                   Prof. Onisimo Mutanga - Earth Observation). This is an
                   inter-college and interdisciplinary Big Data and Analytics
