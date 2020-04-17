@@ -42,23 +42,11 @@ export default class App extends React.Component {
                     </Link>
                   </NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown title="Teaching" id="basic-nav-dropdown">
-                  <NavDropdown.Item>
-                    <Link className="link" to="/teaching">
-                      Overview
-                    </Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link className="link" to="/graduated">
-                      Graduated Students
-                    </Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link className="link" to="/curriculum">
-                      Curriculum Development
-                    </Link>
-                  </NavDropdown.Item>
-                </NavDropdown>
+                <Nav.Link>
+                  <Link className="link" to="/teaching">
+                    Supervision
+                  </Link>
+                </Nav.Link>
                 <NavDropdown title="Experience" id="basic-nav-dropdown">
                   <NavDropdown.Item>
                     <Link className="link" to="/conferences">

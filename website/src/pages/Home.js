@@ -68,7 +68,7 @@ export default class Home extends React.Component {
           >
             <Col>
               <Card
-                bg="light"
+                bg="dark"
                 style={{
                   textAlign: "left",
                   width: "21rem",
@@ -90,7 +90,7 @@ export default class Home extends React.Component {
             </Col>
             <Col>
               <Card
-                bg="light"
+                bg="dark"
                 style={{
                   textAlign: "left",
                   width: "21rem",
@@ -108,7 +108,7 @@ export default class Home extends React.Component {
             </Col>
             <Col>
               <Card
-                bg="light"
+                bg="dark"
                 style={{
                   textAlign: "left",
                   width: "21rem",

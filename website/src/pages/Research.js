@@ -36,7 +36,7 @@ export default class Research extends React.Component {
           </Row>
           <Row>
             <Col md="auto">
-              <Button className="button" variant="outline-warning" size="lg">
+              <Button className="button" variant="warning" size="lg">
                 View My Publications
               </Button>
             </Col>
@@ -60,7 +60,7 @@ export default class Research extends React.Component {
             >
               <Button
                 className="button"
-                variant="outline-warning"
+                variant="warning"
                 size="lg"
                 href="/projects"
               >
@@ -69,7 +69,7 @@ export default class Research extends React.Component {
             </Col>
             <Col md="auto">
               <Card
-                bg="warning"
+                bg="dark"
                 style={{
                   width: "16rem",
                   marginBottom: "1rem",
@@ -87,7 +87,7 @@ export default class Research extends React.Component {
             </Col>
             <Col md="auto">
               <Card
-                bg="warning"
+                bg="dark"
                 style={{
                   width: "16rem",
                   marginBottom: "1rem",
@@ -107,7 +107,7 @@ export default class Research extends React.Component {
             </Col>
             <Col md="auto">
               <Card
-                bg="warning"
+                bg="dark"
                 style={{
                   width: "16rem",
                   marginBottom: "1rem",

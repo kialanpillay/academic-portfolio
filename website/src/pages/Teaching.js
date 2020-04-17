@@ -17,30 +17,18 @@ export default class Research extends React.Component {
         >
           <Row
             style={{
-              marginTop: "4rem",
+              marginTop: "3rem",
             }}
           >
             <Col md="auto">
-              <h1 className="largeHeading">Teaching &amp; Supervision</h1>
+              <h1 className="largeHeading">Supervision</h1>
             </Col>
           </Row>
           <Row
             style={{
-              marginTop: "1rem",
+              marginTop: "2rem",
             }}
           >
-            <Col>
-              <h1 className="largeText">Graduated</h1>
-              <h1 className="mediumText">14 PhD Candidates</h1>
-              <h1 className="mediumText">11 MA Candidates</h1>
-              <h1 className="mediumText">5 Postdoctoral Candidates</h1>
-              <h1 className="mediumText">
-                3 <i>Cum Laude </i>Candidates
-              </h1>
-              <h1 className="mediumText">
-                1 <i>Summa Cum Laude </i>Candidate{" "}
-              </h1>
-            </Col>
             <Col>
               <h1 className="largeText">Current</h1>
               <h1 className="mediumText">4 PhD Candidates</h1>
@@ -48,6 +36,12 @@ export default class Research extends React.Component {
               <h1 className="mediumText">2 Interdisciplinary PhD Candidates</h1>
               <h1 className="mediumText">2 Interdisciplinary MA Candidates</h1>
             </Col>
+            <Col>
+              <h1 className="largeText">Graduated</h1>
+              <h1 className="mediumText">14 PhD Candidates</h1>
+              <h1 className="mediumText">11 MA Candidates</h1>
+              <h1 className="mediumText">5 Postdoctoral Candidates</h1>
+            </Col>
           </Row>
           <Row
             style={{
@@ -55,7 +49,12 @@ export default class Research extends React.Component {
             }}
           >
             <Col md="auto">
-              <Button className="button" variant="outline-warning" size="lg" href="/graduated">
+              <Button
+                className="button"
+                variant="warning"
+                size="lg"
+                href="/graduated"
+              >
                 View Details
               </Button>
             </Col>

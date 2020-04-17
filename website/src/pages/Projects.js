@@ -29,27 +29,27 @@ export default class Projects extends React.Component {
               style={{
                 height: "30rem",
                 width: "100%",
-                color: "whitesmoke",
+                color: "#282c34",
               }}
             >
               <Carousel.Item
                 style={{
-                  marginTop: "4rem",
+                  marginTop: "2rem",
                   alignItems: "center",
                 }}
               >
-                <h1>Big Data Flagship Project</h1>
+                <h1 className="projectTitle">Big Data Flagship Project</h1>
                 <h3 className="projectSubtitle">UKZN</h3>
                 <h5 className="projectYear">2019 - 2021</h5>
                 <p className="projectContent">
-                  R9 Million Grant. Principle Investigator (PI) of a three-year project Project
-                  with two other PIs (Prof. Kavilan Moodley - Astrophysics and
-                  Prof. Onisimo Mutanga - Earth Observation). This is an
-                  inter-college and interdisciplinary Big Data and Analytics
-                  project that comprises a large team of colleagues, (Computer
-                  Science, Information Studies, Statistics, Social Sciences,
-                  Physics, Earth Observation) and includes a large cohort of
-                  Postdoctoral researchers and PhD candidates.
+                  R9 Million Grant. Principle Investigator (PI) of a three-year
+                  project Project with two other PIs (Prof. Kavilan Moodley -
+                  Astrophysics and Prof. Onisimo Mutanga - Earth Observation).
+                  This is an inter-college and interdisciplinary Big Data and
+                  Analytics project that comprises a large team of colleagues,
+                  (Computer Science, Information Studies, Statistics, Social
+                  Sciences, Physics, Earth Observation) and includes a large
+                  cohort of Postdoctoral researchers and PhD candidates.
                 </p>
                 <p className="projectContent">
                   My sub-project is in Geo-Spatial Humanities and data and
@@ -62,11 +62,11 @@ export default class Projects extends React.Component {
               </Carousel.Item>
               <Carousel.Item
                 style={{
-                  marginTop: "4rem",
+                  marginTop: "2rem",
                   alignItems: "center",
                 }}
               >
-                <h1>Spatial Humanties Project</h1>
+                <h1 className="projectTitle">Spatial Humanties Project</h1>
                 <h3 className="projectSubtitle">
                   The Andrew W. Mellon Foundation | UKZN
                 </h3>
@@ -88,15 +88,17 @@ export default class Projects extends React.Component {
               </Carousel.Item>
               <Carousel.Item
                 style={{
-                  marginTop: "4rem",
+                  marginTop: "2rem",
                   alignItems: "center",
                 }}
               >
-                <h1>Young University Women’s Leadership Project</h1>
+                <h1 className="projectTitle">
+                  Young University Women’s Leadership Project
+                </h1>
                 <h3 className="projectSubtitle">
                   Ford Foundation | African Gender Institute | UKZN
                 </h3>
-                <h5 className="projectYear">2014 - 2018</h5>
+                <h5 className="projectYear">2014 - 2020</h5>
                 <p className="projectContent">
                   Entailed collaboration with colleagues from Universities of
                   University of Cape Town, WITS, University of Zimbabwe,
@@ -109,11 +111,32 @@ export default class Projects extends React.Component {
               </Carousel.Item>
               <Carousel.Item
                 style={{
-                  marginTop: "4rem",
+                  marginTop: "2rem",
                   alignItems: "center",
                 }}
               >
-                <h1>Education, Language and Belonging</h1>
+                <h1 className="projectTitle"> HIV/AIDS and Women’s Health</h1>
+                <h3 className="projectSubtitle">UKZN</h3>
+                <h5 className="projectYear">2012 - 2013</h5>
+                <p className="projectContent">
+                  Principle Investigator of a large project in niche area on
+                  HIV/AIDS and Women’s Health. Project sampled approximately
+                  1400 women and probed the use of Female Condoms and
+                  Empowerment in the context of female control over sexual
+                  behaviour and contraception. Project probed the viability of
+                  female condoms as a prophylactic device in the context of the
+                  AIDS pandemic and gendered nature of intervention programmes.
+                </p>
+              </Carousel.Item>
+              <Carousel.Item
+                style={{
+                  marginTop: "2rem",
+                  alignItems: "center",
+                }}
+              >
+                <h1 className="projectTitle">
+                  Education, Language and Belonging
+                </h1>
                 <h3 className="projectSubtitle">UKZN</h3>
                 <h5 className="projectYear">2012</h5>
                 <p className="projectContent">
@@ -124,10 +147,12 @@ export default class Projects extends React.Component {
               </Carousel.Item>
               <Carousel.Item
                 style={{
-                  marginTop: "4rem",
+                  marginTop: "2rem",
                 }}
               >
-                <h1>Paleo-anthropology and African Identity</h1>
+                <h1 className="projectTitle">
+                  Paleo-anthropology and African Identity
+                </h1>
                 <h3 className="projectSubtitle">UKZN</h3>
                 <h5 className="projectYear">2007</h5>
                 <p className="projectContent">

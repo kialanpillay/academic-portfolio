@@ -1,12 +1,15 @@
 .App {
   text-align: center;
   min-height: 100vh;
-  background-color: #282c34;
+  /*background-image: linear-gradient(to left, rgb(218, 218, 218), rgb(255, 255, 255));*/
+  background-color: #F0F0F0;
 }
 /*#282c34*
 #cb444b*/
 .App-body {
-  color: #282c34;
+  color: whitesmoke;
+  /*background-image: linear-gradient(to left, rgb(218, 218, 218), rgb(255, 255, 255));*/
+  background-color: #F0F0F0
 }
 
 svg {
@@ -14,8 +17,15 @@ svg {
   vertical-align: middle;
 }
 
+
 html {
-  background-color: #282c34;
+  /*background-image: linear-gradient(to left, rgb(218, 218, 218), rgb(255, 255, 255));*/
+  background-color: #F0F0F0;
+}
+
+.profile {
+  /*background-image: linear-gradient(to left, rgb(218, 218, 218), rgb(255, 255, 255));*/
+  background-color: transparent
 }
 
 #brand {
@@ -31,38 +41,37 @@ html {
 
 .heading {
   text-align: left;
-  color: whitesmoke;
-  margin-left: 0.5rem;
-  font-size: 4rem;
+  color: #282c34;
+  font-size: 3rem;
   font-weight: 600;
 }
 
 .largeHeading {
   text-align: left;
   color:  #f6c444;;
-  margin-left: 0.5rem;
   font-size: 5rem;
   font-weight: 600;
 }
 
 .largeText {
   text-align: left;
-  color: whitesmoke;
-  margin-left: 0.5rem;
+  color: #282c34;
   font-size: 3rem;
   font-weight: 600;
 }
 
 .mediumText {
   text-align: left;
-  color: whitesmoke;
-  margin-left: 0.5rem;
-  font-size: 2rem;
+  color: #282c34;
+  font-size: 1.5rem;
   font-weight: 600;
   margin-top: 1rem;
 }
 
-
+.text {
+  color: #282c34;
+  text-align: left;
+}
 
 .button {
   margin-top: 1rem;
@@ -81,8 +90,14 @@ html {
   text-align: justify;
   font-size: 1rem;
   width: 70%;
+  color: #282c34;
   display: inline-block;
 }
+
+.projectTitle {
+  color: #282c34;
+}
+
 
 .projectSubtitle {
   font-weight: 700;
@@ -91,6 +106,7 @@ html {
 
 .projectYear {
   margin-bottom: 2rem;
+  color: #282c34
 }
 
 #name {
@@ -100,16 +116,16 @@ html {
 
 #bio {
   text-align: justify;
-  color: whitesmoke;
+  color: #282c34;
   font-size: 1.1rem;
 }
 
 .funderLink {
-  color: #282c34;
+  color: whitesmoke;
 }
 
 .footerLink {
-  color: whitesmoke;
+  color: #282c34;
 }
 
 .footerLink:hover {
@@ -117,8 +133,7 @@ html {
 }
 
 .funderLink:hover {
-  color: #282c34;
-  font-weight: 500;
+  color: #f6c444;
   text-decoration: none;
 }
 
@@ -131,6 +146,6 @@ html {
   font-size: 0.7rem;
   letter-spacing: 0.1rem;
   text-align: left;
-  color: whitesmoke;
+  color: #282c34;
   width: 100%;
 }
