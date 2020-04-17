@@ -11,6 +11,7 @@ import Presentations from "./pages/Presentations";
 import Editorial from "./pages/Editorial";
 import Teaching from "./pages/Teaching";
 import Theses from "./pages/Theses";
+import Awards from "./pages/Awards";
 import "./pages/App.css";
 import image from "./assets/1200px-UKZN_logo.svg.png";
 
@@ -107,6 +108,9 @@ export default class App extends React.Component {
               </Route>
               <Route path="/theses">
                 <Theses />
+              </Route>
+              <Route path="/awards">
+                <Awards />
               </Route>
             </Switch>
           </div>

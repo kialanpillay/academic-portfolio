@@ -16,7 +16,7 @@ export default class Home extends React.Component {
           <h1 id="tag">Academic. Researcher. Social Scientist.</h1>
           <h4 id="name">Professor Maheshvari Naidu</h4>
           <p>
-            BA <i>UDW</i>, BA Hons (Cum Laude), MA (Cum Laude), PhD <i>UKZN</i>
+            BA <i>UDW</i>, BA Hons (cum laude), MA (cum laude), PhD <i>UKZN</i>
           </p>
         </Jumbotron>
         <Container
@@ -117,7 +117,7 @@ export default class Home extends React.Component {
               >
                 <Card.Body>
                   <Card.Title>Awards</Card.Title>
-                  <Card.Text>Explore my awards and honours.</Card.Text>
+                  <Card.Text>Explore my grants and awards.</Card.Text>
                   <Button className="button" variant="outline-warning">
                     Explore
                   </Button>

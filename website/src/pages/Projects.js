@@ -34,7 +34,7 @@ export default class Projects extends React.Component {
             >
               <Carousel.Item
                 style={{
-                  marginTop: "2rem",
+                  marginTop: "3rem",
                   alignItems: "center",
                 }}
               >

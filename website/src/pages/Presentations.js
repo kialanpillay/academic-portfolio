@@ -29,7 +29,7 @@ function Presentations() {
         </Row>
         <Row
           style={{
-            marginTop: "2rem",
+            marginTop: "1rem",
           }}
         >
           <Col md="auto" style={{ marginRight: "0rem" }}>
