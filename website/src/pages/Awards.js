@@ -52,10 +52,10 @@ export default class Awards extends React.Component {
             </Col>
             <Col md="auto">
               <h1 className="mediumText">
-                R9 Million Grant, Big Data Flagship Project
+                R9M Grant, Big Data Flagship Project
               </h1>
               <h1 className="mediumText">
-                R8.7 Million Grant, Spatial Humanities Project
+                R8.7M Grant, Spatial Humanities Project
               </h1>
               <h1 className="mediumText">Knowledge Interchange Grant Award</h1>
               <h1 className="mediumText">Research Grant</h1>
