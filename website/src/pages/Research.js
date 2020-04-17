@@ -4,11 +4,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import CardDeck from "react-bootstrap/CardDeck";
 import Button from "react-bootstrap/Button";
 import "./App.css";
 import image01 from "../assets/Mellon-Found-Logo.png";
-import image02 from "../assets/nrf_logo_new.gif";
 import image03 from "../assets/b2ap3_large_ford-foundation-logo.png";
 
 export default class Research extends React.Component {
