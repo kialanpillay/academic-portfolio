@@ -99,7 +99,7 @@ export default class Home extends React.Component {
               >
                 <Card.Body>
                   <Card.Title>Teaching</Card.Title>
-                  <Card.Text>Explore my teaching and supervision.</Card.Text>
+                  <Card.Text>Explore my students and supervision.</Card.Text>
                   <Button className="button" variant="outline-warning" href="/teaching">
                     Explore
                   </Button>

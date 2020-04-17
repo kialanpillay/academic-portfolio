@@ -33,7 +33,54 @@ export default class Editorial extends React.Component {
               marginBottom: "4rem",
             }}
           >
-            <VerticalTimeline animate={false}>
+            
+             
+              <VerticalTimeline animate={false}>
+              <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{
+                  background: "rgb(53, 58, 64)",
+                  color: "whitesmoke",
+                }}
+                contentArrowStyle={{
+                  borderRight: "8px solid  rgb(245, 245, 245)",
+                }}
+                date="2016 - Present"
+                iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
+              >
+                <h3 className="vertical-timeline-element-title">
+                  Editorial Board
+                </h3>
+                <h4 className="vertical-timeline-element-subtitle">
+                  <i>
+                    AlterNation: Interdisciplinary Journal for the Study of Arts
+                    and Humanities in Southern Africa{" "}
+                  </i>
+                </h4>
+                <h4 className="vertical-timeline-element-subtitle">2016 - Present"</h4>
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{
+                  background: "rgb(53, 58, 64)",
+                  color: "whitesmoke",
+                }}
+                contentArrowStyle={{
+                  borderRight: "8px solid  rgb(245, 245, 245)",
+                }}
+                date="2016 - Present"
+                iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
+              >
+                <h3 className="vertical-timeline-element-title">
+                  Editorial Board
+                </h3>
+                <h4 className="vertical-timeline-element-subtitle">
+                  <i>
+                    Anthropology Southern Africa
+                  </i>
+                </h4>
+                <h4 className="vertical-timeline-element-subtitle">2014 - Present"</h4>
+              </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
@@ -57,71 +104,6 @@ export default class Editorial extends React.Component {
                   Anthropologist. Collaborating editors Prof. M Mduna
                   (University of Witwatersrand) &amp; Prof. S Manuel (Eduardo
                   Mondle University Mozambique).
-                </p>
-              </VerticalTimelineElement>
-              <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                contentStyle={{
-                  background: "rgb(53, 58, 64)",
-                  color: "whitesmoke",
-                }}
-                contentArrowStyle={{
-                  borderRight: "8px solid  rgb(245, 245, 245)",
-                }}
-                date="2016"
-                iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
-              >
-                <h3 className="vertical-timeline-element-title">
-                  Editorial Board
-                </h3>
-                <h4 className="vertical-timeline-element-subtitle">
-                  <i>
-                    AlterNation: Interdisciplinary Journal for the Study of Arts
-                    and Humanities in Southern Africa{" "}
-                  </i>
-                </h4>
-                <h4 className="vertical-timeline-element-subtitle">2015</h4>
-              </VerticalTimelineElement>
-              <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                contentStyle={{
-                  background: "rgb(53, 58, 64)",
-                  color: "whitesmoke",
-                }}
-                contentArrowStyle={{
-                  borderRight: "8px solid  rgb(245, 245, 245)",
-                }}
-                iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
-              >
-                <h3 className="vertical-timeline-element-title">
-                  Guest Editor
-                </h3>
-                <h4 className="vertical-timeline-element-subtitle">
-                  <i>Anthropology</i>
-                </h4>
-                <h4 className="vertical-timeline-element-subtitle">2014</h4>
-              </VerticalTimelineElement>
-              <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                contentStyle={{
-                  background: "rgb(53, 58, 64)",
-                  color: "whitesmoke",
-                }}
-                contentArrowStyle={{
-                  borderRight: "8px solid  rgb(245, 245, 245)",
-                }}
-                iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
-              >
-                <h3 className="vertical-timeline-element-title">
-                  Guest Editor
-                </h3>
-                <h4 className="vertical-timeline-element-subtitle">
-                  <i>The Oriental Anthropologist</i>
-                </h4>
-                <h4 className="vertical-timeline-element-subtitle">2014</h4>
-                <p>
-                  Special Volume on <i>Feminisms, International</i> in The
-                  Oriental Anthropologist.
                 </p>
               </VerticalTimelineElement>
 
@@ -191,7 +173,7 @@ export default class Editorial extends React.Component {
                   Guest Editor
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
-                  <i>Alternations: Mobilities and Transnationalism</i>
+                  <i>AlterNations: Mobilities and Transnationalism</i>
                 </h4>
                 <h4 className="vertical-timeline-element-subtitle">
                   2012 - 2013
@@ -209,53 +191,11 @@ export default class Editorial extends React.Component {
                 }}
                 iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
               >
-                <h3 className="vertical-timeline-element-title">
-                  Editorial Board
-                </h3>
-                <h4 className="vertical-timeline-element-subtitle">
-                  <i>Noumenon: Journal for Transformative Work</i>
-                </h4>
-                <h4 className="vertical-timeline-element-subtitle">
-                  2005 - 2008
-                </h4>
-              </VerticalTimelineElement>
-              <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                contentStyle={{
-                  background: "rgb(53, 58, 64)",
-                  color: "whitesmoke",
-                }}
-                contentArrowStyle={{
-                  borderRight: "8px solid  rgb(245, 245, 245)",
-                }}
-                iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
-              >
                 <h3 className="vertical-timeline-element-title">Editor</h3>
                 <h4 className="vertical-timeline-element-subtitle">
                   <i>Nidan: International Journal for Hinduism</i>
                 </h4>
                 <h4 className="vertical-timeline-element-subtitle">2009</h4>
-              </VerticalTimelineElement>
-              <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                contentStyle={{
-                  background: "rgb(53, 58, 64)",
-                  color: "whitesmoke",
-                }}
-                contentArrowStyle={{
-                  borderRight: "8px solid  rgb(245, 245, 245)",
-                }}
-                iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
-              >
-                <h3 className="vertical-timeline-element-title">
-                  Managing Editor
-                </h3>
-                <h4 className="vertical-timeline-element-subtitle">
-                  <i>Nidan: International Journal for Hinduism</i>
-                </h4>
-                <h4 className="vertical-timeline-element-subtitle">
-                  2007 - 2008
-                </h4>
               </VerticalTimelineElement>
             </VerticalTimeline>
           </Row>

@@ -27,7 +27,7 @@ export default class Projects extends React.Component {
           <Row>
             <Carousel
               style={{
-                height: "30rem",
+                height: "36rem",
                 width: "100%",
                 color: "#282c34",
               }}
@@ -62,7 +62,7 @@ export default class Projects extends React.Component {
               </Carousel.Item>
               <Carousel.Item
                 style={{
-                  marginTop: "2rem",
+                  marginTop: "3rem",
                   alignItems: "center",
                 }}
               >
@@ -88,7 +88,7 @@ export default class Projects extends React.Component {
               </Carousel.Item>
               <Carousel.Item
                 style={{
-                  marginTop: "2rem",
+                  marginTop: "3rem",
                   alignItems: "center",
                 }}
               >
@@ -100,8 +100,8 @@ export default class Projects extends React.Component {
                 </h3>
                 <h5 className="projectYear">2014 - 2020</h5>
                 <p className="projectContent">
-                  Entailed collaboration with colleagues from Universities of
-                  University of Cape Town, WITS, University of Zimbabwe,
+                  Entailed collaboration with colleagues from the following institutions: 
+                  University of Cape Town, University of the Witwatersrand, University of Zimbabwe,
                   University of Namibia, University of Johannesburg, Eduardo
                   Mondle Mozambique and University of Botswana. The Project
                   included my postdoctoral students and doctoral students in a
@@ -111,7 +111,7 @@ export default class Projects extends React.Component {
               </Carousel.Item>
               <Carousel.Item
                 style={{
-                  marginTop: "2rem",
+                  marginTop: "3rem",
                   alignItems: "center",
                 }}
               >
@@ -130,7 +130,7 @@ export default class Projects extends React.Component {
               </Carousel.Item>
               <Carousel.Item
                 style={{
-                  marginTop: "2rem",
+                  marginTop: "3rem",
                   alignItems: "center",
                 }}
               >
@@ -147,7 +147,7 @@ export default class Projects extends React.Component {
               </Carousel.Item>
               <Carousel.Item
                 style={{
-                  marginTop: "2rem",
+                  marginTop: "3rem",
                 }}
               >
                 <h1 className="projectTitle">

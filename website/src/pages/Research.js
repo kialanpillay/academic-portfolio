@@ -34,7 +34,7 @@ export default class Research extends React.Component {
           </Row>
           <Row>
             <Col md="auto">
-              <Button className="button" variant="warning" size="lg">
+              <Button className="button" variant="warning" size="lg" href="/publications">
                 View My Publications
               </Button>
             </Col>
