@@ -7,6 +7,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Research from "./pages/Research";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import Publications from "./pages/Publications";
 import Presentations from "./pages/Presentations";
 import Editorial from "./pages/Editorial";
 import Teaching from "./pages/Teaching";
@@ -99,7 +100,9 @@ export default class App extends React.Component {
               <Route path="/presentations">
                 <Presentations />
               </Route>
-              <Route path="/publications"></Route>
+              <Route path="/publications">
+                <Publications />
+              </Route>
               <Route path="/editorials">
                 <Editorial />
               </Route>
@@ -115,9 +118,6 @@ export default class App extends React.Component {
             </Switch>
           </div>
         </div>
-
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
       </Router>
     );
   }
