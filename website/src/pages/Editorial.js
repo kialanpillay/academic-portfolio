@@ -37,8 +37,8 @@ export default class Editorial extends React.Component {
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "rgb(245, 245, 245)",
-                  color: "#282c34",
+                  background: "rgb(53, 58, 64)",
+                  color: "whitesmoke",
                 }}
                 contentArrowStyle={{
                   borderRight: "8px solid  rgb(245, 245, 245)",
@@ -49,11 +49,11 @@ export default class Editorial extends React.Component {
                   Co-Guest Editor
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
-                  <i>Oriental Anthropologist</i>
+                  <i>The Oriental Anthropologist</i>
                 </h4>
                 <h4 className="vertical-timeline-element-subtitle">2016</h4>
                 <p>
-                  Special Issue of <i>Women in Global South</i> in Oriental
+                  Special Issue of <i>Women in Global South</i> in The Oriental
                   Anthropologist. Collaborating editors Prof. M Mduna
                   (University of Witwatersrand) &amp; Prof. S Manuel (Eduardo
                   Mondle University Mozambique).
@@ -62,8 +62,8 @@ export default class Editorial extends React.Component {
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "rgb(245, 245, 245)",
-                  color: "#282c34",
+                  background: "rgb(53, 58, 64)",
+                  color: "whitesmoke",
                 }}
                 contentArrowStyle={{
                   borderRight: "8px solid  rgb(245, 245, 245)",
@@ -75,15 +75,18 @@ export default class Editorial extends React.Component {
                   Editorial Board
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
-                  <i>Alternation</i>
+                  <i>
+                    AlterNation: Interdisciplinary Journal for the Study of Arts
+                    and Humanities in Southern Africa{" "}
+                  </i>
                 </h4>
                 <h4 className="vertical-timeline-element-subtitle">2015</h4>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "rgb(245, 245, 245)",
-                  color: "#282c34",
+                  background: "rgb(53, 58, 64)",
+                  color: "whitesmoke",
                 }}
                 contentArrowStyle={{
                   borderRight: "8px solid  rgb(245, 245, 245)",
@@ -101,8 +104,8 @@ export default class Editorial extends React.Component {
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "rgb(245, 245, 245)",
-                  color: "#282c34",
+                  background: "rgb(53, 58, 64)",
+                  color: "whitesmoke",
                 }}
                 contentArrowStyle={{
                   borderRight: "8px solid  rgb(245, 245, 245)",
@@ -113,20 +116,20 @@ export default class Editorial extends React.Component {
                   Guest Editor
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
-                  <i>Oriental Anthropologist</i>
+                  <i>The Oriental Anthropologist</i>
                 </h4>
                 <h4 className="vertical-timeline-element-subtitle">2014</h4>
                 <p>
-                  Special Volume on <i>Feminisms, International</i> in Oriental
-                  Anthropologist.
+                  Special Volume on <i>Feminisms, International</i> in The
+                  Oriental Anthropologist.
                 </p>
               </VerticalTimelineElement>
 
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "rgb(245, 245, 245)",
-                  color: "#282c34",
+                  background: "rgb(53, 58, 64)",
+                  color: "whitesmoke",
                 }}
                 contentArrowStyle={{
                   borderRight: "8px solid  rgb(245, 245, 245)",
@@ -141,15 +144,15 @@ export default class Editorial extends React.Component {
                 </h4>
                 <h4 className="vertical-timeline-element-subtitle">2013</h4>
                 <p>
-                  Special Issue of <i>Women in Spiritual Leadership</i> in
+                  Special Issue of <i>Women in Spiritual Leadership</i> in The
                   Oriental Anthropologist.
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "rgb(245, 245, 245)",
-                  color: "#282c34",
+                  background: "rgb(53, 58, 64)",
+                  color: "whitesmoke",
                 }}
                 contentArrowStyle={{
                   borderRight: "8px solid  rgb(245, 245, 245)",
@@ -171,14 +174,13 @@ export default class Editorial extends React.Component {
                     {" "}
                     Southern Africa: Human Ecology and Tourism Interactions
                   </i>
-                  . SAPSE Accredited Journal.
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "rgb(245, 245, 245)",
-                  color: "#282c34",
+                  background: "rgb(53, 58, 64)",
+                  color: "whitesmoke",
                 }}
                 contentArrowStyle={{
                   borderRight: "8px solid  rgb(245, 245, 245)",
@@ -194,13 +196,13 @@ export default class Editorial extends React.Component {
                 <h4 className="vertical-timeline-element-subtitle">
                   2012 - 2013
                 </h4>
-                <p>Special Issue. SAPSE Accredited Journal.</p>
+                <p>Special Issue.</p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "rgb(245, 245, 245)",
-                  color: "#282c34",
+                  background: "rgb(53, 58, 64)",
+                  color: "whitesmoke",
                 }}
                 contentArrowStyle={{
                   borderRight: "8px solid  rgb(245, 245, 245)",
@@ -220,8 +222,8 @@ export default class Editorial extends React.Component {
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "rgb(245, 245, 245)",
-                  color: "#282c34",
+                  background: "rgb(53, 58, 64)",
+                  color: "whitesmoke",
                 }}
                 contentArrowStyle={{
                   borderRight: "8px solid  rgb(245, 245, 245)",
@@ -233,13 +235,12 @@ export default class Editorial extends React.Component {
                   <i>Nidan: International Journal for Hinduism</i>
                 </h4>
                 <h4 className="vertical-timeline-element-subtitle">2009</h4>
-                <p>SAPSE Accredited Journal.</p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "rgb(245, 245, 245)",
-                  color: "#282c34",
+                  background: "rgb(53, 58, 64)",
+                  color: "whitesmoke",
                 }}
                 contentArrowStyle={{
                   borderRight: "8px solid  rgb(245, 245, 245)",
@@ -255,7 +256,6 @@ export default class Editorial extends React.Component {
                 <h4 className="vertical-timeline-element-subtitle">
                   2007 - 2008
                 </h4>
-                <p>SAPSE Accredited Journal.</p>
               </VerticalTimelineElement>
             </VerticalTimeline>
           </Row>

@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import "./App.css";
 
-export default class Research extends React.Component {
+export default class Teaching extends React.Component {
   render() {
     return (
       <div className="App-body">
@@ -21,7 +21,9 @@ export default class Research extends React.Component {
             }}
           >
             <Col md="auto">
-              <h1 className="largeHeading">Supervision</h1>
+              <h1 className="largeHeading">
+                Graduated Students
+              </h1>
             </Col>
           </Row>
           <Row
@@ -45,7 +47,7 @@ export default class Research extends React.Component {
           </Row>
           <Row
             style={{
-              marginTop: "1rem",
+              marginTop: "2rem",
             }}
           >
             <Col md="auto">
@@ -53,7 +55,7 @@ export default class Research extends React.Component {
                 className="button"
                 variant="warning"
                 size="lg"
-                href="/graduated"
+                href="/theses"
               >
                 View Details
               </Button>

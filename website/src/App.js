@@ -7,9 +7,10 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Research from "./pages/Research";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
-import Conferences from "./pages/Conferences";
+import Presentations from "./pages/Presentations";
 import Editorial from "./pages/Editorial";
 import Teaching from "./pages/Teaching";
+import Theses from "./pages/Theses";
 import "./pages/App.css";
 import image from "./assets/1200px-UKZN_logo.svg.png";
 
@@ -42,15 +43,22 @@ export default class App extends React.Component {
                     </Link>
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link>
-                  <Link className="link" to="/teaching">
-                    Supervision
-                  </Link>
-                </Nav.Link>
-                <NavDropdown title="Experience" id="basic-nav-dropdown">
+                <NavDropdown title="Teaching" id="basic-nav-dropdown">
                   <NavDropdown.Item>
-                    <Link className="link" to="/conferences">
-                      Conferences &amp; Seminars
+                    <Link className="link" to="/teaching">
+                      Overview
+                    </Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link className="link" to="/theses">
+                      Supervision
+                    </Link>
+                  </NavDropdown.Item>
+                </NavDropdown>
+                <NavDropdown title="Work" id="basic-nav-dropdown">
+                  <NavDropdown.Item>
+                    <Link className="link" to="/presentations">
+                      Presentations
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
@@ -87,8 +95,8 @@ export default class App extends React.Component {
               <Route path="/projects">
                 <Projects />
               </Route>
-              <Route path="/conferences">
-                <Conferences />
+              <Route path="/presentations">
+                <Presentations />
               </Route>
               <Route path="/publications"></Route>
               <Route path="/editorials">
@@ -96,6 +104,9 @@ export default class App extends React.Component {
               </Route>
               <Route path="/teaching">
                 <Teaching />
+              </Route>
+              <Route path="/theses">
+                <Theses />
               </Route>
             </Switch>
           </div>

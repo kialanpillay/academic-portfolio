@@ -47,14 +47,13 @@ export default class Research extends React.Component {
             }}
           >
             <Col>
-              <h1 className="largeText">5 Projects</h1>
+              <h1 className="largeText">6 Projects</h1>
             </Col>
           </Row>
           <Row>
-            <Col
-              md="auto"
+            <Col md="auto"
               style={{
-                marginRight: "2rem",
+                marginRight: "20rem",
                 marginBottom: "1rem",
               }}
             >
@@ -69,7 +68,7 @@ export default class Research extends React.Component {
             </Col>
             <Col md="auto">
               <Card
-                bg="dark"
+                bg="warning"
                 style={{
                   width: "16rem",
                   marginBottom: "1rem",
@@ -78,28 +77,10 @@ export default class Research extends React.Component {
               >
                 <Card.Img variant="top" src={image01} />
                 <Card.Body>
-                  <Card.Title>Project Funder</Card.Title>
+                  <Card.Title className="funder">Project Funder</Card.Title>
                   <Card.Text>
-                    <a className="funderLink" href={"https://mellon.org"}>Mellon Foundation</a>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col md="auto">
-              <Card
-                bg="dark"
-                style={{
-                  width: "16rem",
-                  marginBottom: "1rem",
-                  marginTop: "1rem",
-                }}
-              >
-                <Card.Img variant="top" src={image02} />
-                <Card.Body>
-                  <Card.Title>Project Funder</Card.Title>
-                  <Card.Text>
-                    <a className="funderLink" href={"https://nrf.ac.za"}>
-                      National Research Foundation
+                    <a className="funderLink" href={"https://mellon.org"}>
+                      Mellon Foundation
                     </a>
                   </Card.Text>
                 </Card.Body>
@@ -107,7 +88,7 @@ export default class Research extends React.Component {
             </Col>
             <Col md="auto">
               <Card
-                bg="dark"
+                bg="warning"
                 style={{
                   width: "16rem",
                   marginBottom: "1rem",
@@ -116,9 +97,12 @@ export default class Research extends React.Component {
               >
                 <Card.Img variant="top" src={image03} />
                 <Card.Body>
-                  <Card.Title>Project Funder</Card.Title>
+                  <Card.Title className="funder">Project Funder</Card.Title>
                   <Card.Text>
-                    <a className="funderLink" href={"https://fordfoundation.org"}>
+                    <a
+                      className="funderLink"
+                      href={"https://fordfoundation.org"}
+                    >
                       Ford Foundation
                     </a>
                   </Card.Text>

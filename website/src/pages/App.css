@@ -2,14 +2,14 @@
   text-align: center;
   min-height: 100vh;
   /*background-image: linear-gradient(to left, rgb(218, 218, 218), rgb(255, 255, 255));*/
-  background-color: #F0F0F0;
+  background-color: gainsboro;
 }
 /*#282c34*
 #cb444b*/
 .App-body {
   color: whitesmoke;
   /*background-image: linear-gradient(to left, rgb(218, 218, 218), rgb(255, 255, 255));*/
-  background-color: #F0F0F0
+  background-color: gainsboro
 }
 
 svg {
@@ -20,7 +20,7 @@ svg {
 
 html {
   /*background-image: linear-gradient(to left, rgb(218, 218, 218), rgb(255, 255, 255));*/
-  background-color: #F0F0F0;
+  background-color: gainsboro;
 }
 
 .profile {
@@ -48,8 +48,9 @@ html {
 
 .largeHeading {
   text-align: left;
-  color:  #f6c444;;
-  font-size: 5rem;
+  /*color:  #f6c444;*/
+  color: #282c34;
+  font-size: 4rem;
   font-weight: 600;
 }
 
@@ -68,9 +69,33 @@ html {
   margin-top: 1rem;
 }
 
+.smallText {
+  text-align: left;
+  color: #282c34;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
 .text {
   color: #282c34;
+  font-size: 0.8rem;
   text-align: left;
+}
+
+.location {
+  color: #282c34;
+  font-size: 0.95rem;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.presentation{
+  color: #282c34;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 1.5rem;
 }
 
 .button {
@@ -96,12 +121,13 @@ html {
 
 .projectTitle {
   color: #282c34;
+  font-size: 3rem;
 }
 
 
 .projectSubtitle {
   font-weight: 700;
-  color: #f6c444;
+  color: #282c34;
 }
 
 .projectYear {
@@ -121,7 +147,11 @@ html {
 }
 
 .funderLink {
-  color: whitesmoke;
+  color: #282c34;
+}
+
+.funder {
+  color: #282c34;
 }
 
 .footerLink {
@@ -129,11 +159,11 @@ html {
 }
 
 .footerLink:hover {
-  color: whitesmoke;
+  color: #282c34;
 }
 
 .funderLink:hover {
-  color: #f6c444;
+  color: whitesmoke;
   text-decoration: none;
 }
 
