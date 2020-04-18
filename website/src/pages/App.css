@@ -119,11 +119,12 @@ html {
 }
 
 .pubLink {
-  color: #f6c444;
+  color: #282c34;
+  text-decoration: underline;
 }
 
 .pubLink:hover {
-  color: #282c34;
+  color: #f6c444;
 }
 
 .link {

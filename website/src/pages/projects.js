@@ -53,7 +53,7 @@ export default class Projects extends React.Component {
                   researchers and PhD candidates.
                 </p>
                 <p className="projectContent">
-                  My sub-project is in Geo-Spatial Humanities and data and
+                  My sub-project is in Geo-Spatial Humanities and Data and
                   involves GIS mapping of vulnerabilities in the context of
                   informal settlements. GIS and Remote Sensing and large
                   datasets from Landsat are used to answer social science

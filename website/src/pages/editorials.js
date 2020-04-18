@@ -173,12 +173,13 @@ export default class Editorial extends React.Component {
                   Guest Editor
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
-                  <i>AlterNations: Mobilities and Transnationalism</i>
+                  <i>AlterNation: Interdisciplinary Journal for the Study of Arts
+                    and Humanities in Southern Africa</i>
                 </h4>
                 <h4 className="vertical-timeline-element-subtitle">
                   2012 - 2013
                 </h4>
-                <p>Special Issue.</p>
+                <p>Special Themed Issue on Mobilities and Transnationalism</p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"

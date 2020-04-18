@@ -22,7 +22,7 @@ export default class App extends React.Component {
       <Router basename="/">
         <div className="App">
           <Navbar id="nav" bg="light">
-            <Navbar.Brand id="brand" href="/home">
+            <Navbar.Brand id="brand" href="/">
               MAHESHVARI NAIDU
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -88,9 +88,6 @@ export default class App extends React.Component {
           </Navbar>
           <div>
             <Switch>
-              <Route path="/home">
-                <Home />
-              </Route>
               <Route path="/research">
                 <Research />
               </Route>
@@ -114,6 +111,9 @@ export default class App extends React.Component {
               </Route>
               <Route path="/awards">
                 <Awards />
+              </Route>
+              <Route path="/">
+                <Home />
               </Route>
             </Switch>
           </div>
