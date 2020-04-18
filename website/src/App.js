@@ -19,7 +19,7 @@ import image from "./assets/1200px-UKZN_logo.svg.png";
 export default class App extends React.Component {
   render() {
     return (
-      <Router>
+      <Router basename="/">
         <div className="App">
           <Navbar id="nav" bg="light">
             <Navbar.Brand id="brand" href="/home">
