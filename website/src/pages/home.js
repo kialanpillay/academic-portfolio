@@ -39,8 +39,8 @@ export default class Home extends React.Component {
                 </Card.Text>
                 <Card.Text id="bio">
                   She is widely published with work that cuts across multiples
-                  disciplines and is on the editorial boards of the prestigious
-                  journals, <i>(Anthropology Southern Africa </i> Taylor and
+                  disciplines and is on the editorial boards of the
+                  journals, <i>Anthropology Southern Africa </i> (Taylor and
                   Francis) and <i>Oriental Anthropologist </i>(Sage).
                 </Card.Text>
                 <Card.Text id="bio">
@@ -77,7 +77,7 @@ export default class Home extends React.Component {
               >
                 <Card.Body>
                   <Card.Title>Research</Card.Title>
-                  <Card.Text>Explore my publications and projects.</Card.Text>
+                  <Card.Text>Explore publications and projects.</Card.Text>
                   <Button className="button" variant="warning">
                     <Link className="buttonLink" to="/research">
                       Explore
@@ -96,7 +96,7 @@ export default class Home extends React.Component {
                 }}
               >
                 <Card.Body>
-                  <Card.Title>Teaching</Card.Title>
+                  <Card.Title>Supervision</Card.Title>
                   <Card.Text>Explore my students and supervision.</Card.Text>
                   <Button className="button" variant="warning">
                     <Link className="buttonLink" to="/teaching">
@@ -117,7 +117,7 @@ export default class Home extends React.Component {
               >
                 <Card.Body>
                   <Card.Title>Awards</Card.Title>
-                  <Card.Text>Explore my grants and awards.</Card.Text>
+                  <Card.Text>Explore grants and awards.</Card.Text>
                   <Button className="button" variant="warning">
                     <Link className="buttonLink" to="/awards">
                       Explore
@@ -130,10 +130,12 @@ export default class Home extends React.Component {
         </Container>
         <footer id="footer">
           WEB DESIGN:{" "}
-          <a className="footerLink" href="https://kialan.co.za">
+          <a className="footerLink" href="https://www.linkedin.com/in/kialan-p-a63779140/">
             KIALAN PILLAY
           </a>{" "}
-          c/o ALPHA Q LABS.
+          <a className="footerLink" href="https://kialan.co.za">
+            c/o ALPHA Q LABS.
+          </a>{" "}
         </footer>
       </div>
     );

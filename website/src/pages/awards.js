@@ -42,6 +42,7 @@ export default class Awards extends React.Component {
           <Tabs
             style={{
               marginTop: "1rem",
+              marginBottom: "2rem",
               color: "yellow",
             }}
             activeKey={this.state.key}
@@ -77,7 +78,7 @@ export default class Awards extends React.Component {
                     R8.7M Grant, Spatial Humanities Project
                   </h1>
                   <h1 className="award">Knowledge Interchange Grant Award</h1>
-                  <h1 className="award">Research Grant</h1>
+                  <h1 className="award">Gender Research Grant</h1>
                   <h1 className="award">Knowledge Interchange Grant Award</h1>
                   <h1 className="award">Strategic Research Grant Award</h1>
                   <h1 className="award">Teaching and Learning Grant Award</h1>
@@ -88,7 +89,7 @@ export default class Awards extends React.Component {
                   <h1 className="smallText">University of KwaZulu Natal</h1>
                   <h1 className="smallText">The Andrew W. Mellon Foundation</h1>
                   <h1 className="smallText">National Research Foundation</h1>
-                  <h1 className="smallText">Ford Foundation</h1>
+                  <h1 className="smallText">Ford Foundation | African Gender Institute</h1>
                   <h1 className="smallText">National Research Foundation</h1>
                   <h1 className="smallText">National Research Foundation</h1>
                   <h1 className="smallText">National Research Foundation</h1>
@@ -135,7 +136,7 @@ export default class Awards extends React.Component {
                   <h1 className="smallText">
                     Bayreuth University Institute of African Studies
                   </h1>
-                  <h1 className="smallText">Dr. Byron Katie, Netherlands</h1>
+                  <h1 className="smallText">Byron Katie Academy, Netherlands</h1>
                   <h1 className="smallText">National Research Foundation</h1>
                   <h1 className="smallText">National Research Foundation</h1>
                   <h1 className="smallText">World Council of Religions</h1>

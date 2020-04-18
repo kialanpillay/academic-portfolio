@@ -24,6 +24,15 @@ export default class Topics extends React.Component {
               <h1 className="largeHeading">Supervised Research Topics</h1>
             </Col>
           </Row>
+          <Row
+            style={{
+              marginTop: "0rem",
+            }}
+          >
+            <Col md="auto">
+              <h1 className="mediumText">In Anthropology, Sociology, Gender Studies, Conflict Transformation and Peace Studies</h1>
+            </Col>
+          </Row>
           <Carousel
             style={{
               height: "30rem",
