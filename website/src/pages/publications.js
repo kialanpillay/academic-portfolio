@@ -449,7 +449,7 @@ export default class Publications extends React.Component {
                     , 38 (1), 7-26.
                   </h6>
                   <h6 className="publication">
-                    Naidu, M. (2013). Sinful Liaisons (!)Lesbian and Religious.{" "}
+                    Naidu, M. (2013). Sinful(!) Liaisons: Being Lesbian and Religious.{" "}
                     <a
                       className="pubLink"
                       target="_blank"
