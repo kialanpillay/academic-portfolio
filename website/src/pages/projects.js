@@ -156,13 +156,13 @@ export default class Projects extends React.Component {
                 }}
               >
                 <h1 className="projectTitle">
-                  Paleo-anthropology and African Identity
+                  Paleoanthropology and African Identity
                 </h1>
                 <h3 className="projectSubtitle">UKZN</h3>
                 <h5 className="projectYear">2007</h5>
                 <p className="projectContent">
                   As part of the project, a documentary on African Identity and
-                  Palaeo-Heritage was produced (African Origins). This formed
+                  Paleo-Heritage was produced (African Origins). This formed
                   part of the teaching toolkit of the Module{" "}
                   <i> Introduction to African Societies</i>.
                 </p>
