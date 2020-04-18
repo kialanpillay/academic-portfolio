@@ -871,7 +871,7 @@ export default class Publications extends React.Component {
               <Row>
                 <Col md="auto">
                   <h6 className="publication">
-                    Naidu, M. &amp; Mazibuko N (2015). The ‘First Skin’: Clothes
+                    Naidu, M. &amp; Mazibuko N (2015). The "First Skin": Clothes
                     and Masculinity amongst the Izikhothani.{" "}
                     <i>Journal of Social Sciences</i>, 45(3), 212-220.
                     <a
