@@ -105,6 +105,13 @@ html {
   margin-top: 1.5rem;
 }
 
+.publication{
+  color: #282c34;
+  font-size: 0.95rem;
+  text-align: left;
+  margin-top: 1.5rem;
+}
+
 .award{
   color: #282c34;
   font-size: 1rem;
@@ -120,7 +127,7 @@ html {
 
 .pubLink {
   color: #282c34;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .buttonLink {
@@ -133,7 +140,8 @@ html {
 }
 
 .pubLink:hover {
-  color: #f6c444;
+  color: #282c34;
+  text-decoration: underline;
 }
 
 .link {

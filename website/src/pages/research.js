@@ -31,7 +31,7 @@ export default class Research extends React.Component {
             }}
           >
             <Col md="auto">
-              <h1 className="largeText">75 Publications</h1>
+              <h1 className="largeText">78 Publications</h1>
             </Col>
           </Row>
           <Row>
