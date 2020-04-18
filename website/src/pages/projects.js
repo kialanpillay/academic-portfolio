@@ -60,6 +60,31 @@ export default class Projects extends React.Component {
                   questions for policy intervention in the context of urban
                   sprawl and "slum" settlements.
                 </p>
+                <p>
+                  <a
+                    style={{
+                      fontSize: "1.2rem",
+                    }}
+                    className="link"
+                    target="_blank"
+                    href="http://ndabaonline.ukzn.ac.za/UkzndabaStory/Vol7-Issue5/UKZN%20Invests%20in%20Innovative%20Big%20Data%20Research%20to%20Boost%20Flagship%20Project/"
+                  >
+                    Feature Article 1
+                  </a>
+                </p>
+                <p>
+                  {" "}
+                  <a
+                    style={{
+                      fontSize: "1.2rem",
+                    }}
+                    className="link"
+                    target="_blank"
+                    href="http://ndabaonline.ukzn.ac.za/UkzndabaStory/isizulu/Big%20Data%20for%20Science%20and%20Society%20Launch%20Goes%20Big"
+                  >
+                    Feature Article 2
+                  </a>
+                </p>
               </Carousel.Item>
               <Carousel.Item
                 style={{
@@ -86,6 +111,18 @@ export default class Projects extends React.Component {
                   historically racially segregated spaces of Umlazi, Chatsworth
                   and Durban CBD.
                 </p>
+                <p>
+                  <a
+                    style={{
+                      fontSize: "1.2rem",
+                    }}
+                    className="link"
+                    target="_blank"
+                    href="https://sss.ukzn.ac.za/news/2018/11/mellon-foundation-awards-over-nine-million-rand-u657000-in-grants-to-college-of-humanities/"
+                  >
+                    Feature Article
+                  </a>
+                </p>
               </Carousel.Item>
               <Carousel.Item
                 style={{
@@ -108,6 +145,30 @@ export default class Projects extends React.Component {
                   University of Botswana. The Project included my postdoctoral
                   students and doctoral students in a mentoring bid to build
                   capacity and develop intellectual skills.
+                </p>
+                <p>
+                  <a
+                    style={{
+                      fontSize: "1.2rem",
+                    }}
+                    className="link"
+                    target="_blank"
+                    href="http://ndabaonline.ukzn.ac.za/UkzndabaStory/Vol4-Issue22/UKZN%20Students%20Part%20of%20SADC%20InterInstitutional%20Workshop/"
+                  >
+                    Feature Article 1
+                  </a>
+                </p>
+                <p>
+                  <a
+                    style={{
+                      fontSize: "1.2rem",
+                    }}
+                    className="link"
+                    target="_blank"
+                    href="http://ndabaonline.ukzn.ac.za/StoryPrinter.aspx?id=1586"
+                  >
+                    Feature Article 2
+                  </a>
                 </p>
               </Carousel.Item>
               <Carousel.Item
