@@ -786,7 +786,7 @@ export default class Publications extends React.Component {
                   </h6>
 
                   <h6 className="publication">
-                    Naidu, M. (2007). Taking your God into Classroom, Religious
+                    Naidu, M. (2007). Taking your God into the Classroom, Religious
                     Education and Religion Education: The Westville Hindu School
                     as an Alternate Model of Education.{" "}
                     <a
@@ -801,8 +801,7 @@ export default class Publications extends React.Component {
                     , 19(12), 59-88.
                   </h6>
                   <h6 className="publication">
-                    Naidu, M. (2005). The Hindu Women’s Religious Identity in
-                    South Africa. <i>Journal of Dharma</i>.
+                    Naidu, M. (2005). Religious Belonging and Identity among South African Hindu Women. <i>Journal of Dharma</i>.
                   </h6>
                   <h6 className="publication">
                     Naidu, M. (2003). Business Suits and Priests: The Politics
