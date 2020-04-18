@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import Carousel from "react-bootstrap/Carousel";
 import "./App.css";
 import image01 from "../assets/Mellon-Found-Logo.png";
 import image03 from "../assets/b2ap3_large_ford-foundation-logo.png";
@@ -55,7 +56,7 @@ export default class Research extends React.Component {
             <Col
               md="auto"
               style={{
-                marginRight: "20rem",
+                marginRight: "10rem",
                 marginBottom: "1rem",
               }}
             >
@@ -65,48 +66,51 @@ export default class Research extends React.Component {
                 </Link>
               </Button>
             </Col>
+            <Col></Col>
             <Col md="auto">
-              <Card
-                bg="warning"
+              <Carousel
                 style={{
-                  width: "16rem",
-                  marginBottom: "1rem",
-                  marginTop: "1rem",
+                  height: "8rem",
+                  width: "40rem",
+                  color: "#282c34",
                 }}
               >
-                <Card.Img variant="top" src={image01} />
-                <Card.Body>
-                  <Card.Title className="funder">Project Funder</Card.Title>
-                  <Card.Text>
-                    <a className="funderLink" href={"https://mellon.org"}>
-                      Mellon Foundation
-                    </a>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col md="auto">
-              <Card
-                bg="warning"
-                style={{
-                  width: "16rem",
-                  marginBottom: "1rem",
-                  marginTop: "1rem",
-                }}
-              >
-                <Card.Img variant="top" src={image03} />
-                <Card.Body>
-                  <Card.Title className="funder">Project Funder</Card.Title>
-                  <Card.Text>
-                    <a
-                      className="funderLink"
-                      href={"https://fordfoundation.org"}
-                    >
-                      Ford Foundation
-                    </a>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
+                <Carousel.Item
+                  style={{
+                    marginTop: "0rem",
+                    alignItems: "left",
+                  }}
+                >
+                  <h3 className="projectSubtitle">Mellon Foundation</h3>
+                  <a className="funderLink" href={"https://mellon.org"}>
+                    <h4>Project Funder</h4>
+                  </a>
+                </Carousel.Item>
+                <Carousel.Item
+                  style={{
+                    marginTop: "0rem",
+                    alignItems: "center",
+                  }}
+                >
+                  <h3 className="projectSubtitle">Ford Foundation</h3>
+                  <a className="funderLink" href={"https://fordfoundation.org"}>
+                    <h4>Project Funder</h4>
+                  </a>
+                </Carousel.Item>
+                <Carousel.Item
+                  style={{
+                    marginTop: "0rem",
+                    alignItems: "center",
+                  }}
+                >
+                  <h3 className="projectSubtitle">
+                    National Research Foundation
+                  </h3>
+                  <a className="funderLink" href={"https://nrf.ac.za"}>
+                    <h4>Project Funder</h4>
+                  </a>
+                </Carousel.Item>
+              </Carousel>
             </Col>
           </Row>
         </Container>

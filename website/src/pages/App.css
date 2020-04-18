@@ -196,8 +196,8 @@ html {
 }
 
 .funderLink:hover {
-  color: whitesmoke;
-  text-decoration: none;
+  color: #282c34;
+  text-decoration: underline;
 }
 
 
