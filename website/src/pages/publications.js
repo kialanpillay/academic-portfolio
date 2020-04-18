@@ -42,6 +42,19 @@ export default class Publications extends React.Component {
                 Publications
               </h1>
             </Col>
+            <Toast
+                  show={this.state.tooltip}
+                  onClose={() =>
+                    this.setState({ tooltip: !this.state.tooltip })
+                  }
+                >
+                  <Toast.Header>
+                    <strong className="mr-auto">Tip</strong>
+                  </Toast.Header>
+                  <Toast.Body style={{ color: "#282c34", fontSize: "0.6rem" }}>
+                    Hover over the DOI or Journal to visit the publication.
+                  </Toast.Body>
+                </Toast>
           </Row>
           <Tabs activeKey={this.state.key} onSelect={(k) => this.setKey(k)}>
             <Tab
@@ -59,19 +72,7 @@ export default class Publications extends React.Component {
                 <Col md="auto">
                   <h1 className="largeText">Peer-Reviewed Journal Articles</h1>
                 </Col>
-                <Toast
-                  show={this.state.tooltip}
-                  onClose={() =>
-                    this.setState({ tooltip: !this.state.tooltip })
-                  }
-                >
-                  <Toast.Header>
-                    <strong className="mr-auto">Tip</strong>
-                  </Toast.Header>
-                  <Toast.Body style={{ color: "#282c34", fontSize: "0.6rem" }}>
-                    Hover over the DOI or Journal to visit the publication.
-                  </Toast.Body>
-                </Toast>
+   
               </Row>
               <Row>
                 <Col md="auto" style={{ marginRight: "0rem" }}>
