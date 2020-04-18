@@ -93,7 +93,7 @@ export default class Research extends React.Component {
                     }}
                   />
                   <h3 className="projectSubtitle">Mellon Foundation</h3>
-                  <a className="funderLink" href={"https://mellon.org"}>
+                  <a className="funderLink" href={"https://mellon.org"} target="_blank">
                     <h4>Project Funder</h4>
                   </a>
                 </Carousel.Item>
@@ -115,7 +115,7 @@ export default class Research extends React.Component {
                     }}
                   />
                   <h3 className="projectSubtitle">Ford Foundation</h3>
-                  <a className="funderLink" href={"https://fordfoundation.org"}>
+                  <a className="funderLink" href={"https://fordfoundation.org"} target="_blank">
                     <h4>Project Funder</h4>
                   </a>
                 </Carousel.Item>
@@ -138,7 +138,7 @@ export default class Research extends React.Component {
                   <h3 className="projectSubtitle">
                     National Research Foundation
                   </h3>
-                  <a className="funderLink" href={"https://nrf.ac.za"}>
+                  <a className="funderLink" href={"https://www.nrf.ac.za"} target="_blank">
                     <h4>Project Funder</h4>
                   </a>
                 </Carousel.Item>
