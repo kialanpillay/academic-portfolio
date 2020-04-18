@@ -226,6 +226,19 @@ export default class Publications extends React.Component {
                     , 31(1), 7-26
                   </h6>
                   <h6 className="publication">
+                    Naidu M. &amp; Mazibuko, N. (2016). Izikhothani Perceptions
+                    on Women, Sex and Sexuality.{" "}
+                    <i>The Oriental Anthropologist</i>, 16(1), 1-15{" "}
+                    <a
+                      className="pubLink"
+                      target="_blank"
+                      href="https://journals.sagepub.com/doi/abs/10.1177/0976343020160101?journalCode=oana"
+                    >
+                      {" "}
+                      DOI: 10.1177/0976343020160101
+                    </a>
+                  </h6>
+                  <h6 className="publication">
                     Naidu, M. (2015). I want love too... What is so wrong with
                     that? <i>Agenda: Empowering Women for Gender Equity</i>,
                     29(2), 44-53.
@@ -263,19 +276,6 @@ export default class Publications extends React.Component {
                     >
                       {" "}
                       DOI: 10-1177/0976343020170202
-                    </a>
-                  </h6>
-                  <h6 className="publication">
-                    Naidu, M. &amp; Mazibuko N (2015). The ‘First Skin’: Clothes
-                    and Masculinity amongst the Izikhothani.{" "}
-                    <i>Journal of Social Sciences</i>, 45(3), 212-220.
-                    <a
-                      className="pubLink"
-                      target="_blank"
-                      href="https://www.tandfonline.com/doi/abs/10.1080/09718923.2015.11893503"
-                    >
-                      {" "}
-                      DOI: 10.1080/09718923.2015.11893503{" "}
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -449,7 +449,8 @@ export default class Publications extends React.Component {
                     , 38 (1), 7-26.
                   </h6>
                   <h6 className="publication">
-                    Naidu, M. (2013). Sinful(!) Liaisons: Being Lesbian and Religious.{" "}
+                    Naidu, M. (2013). Sinful(!) Liaisons: Being Lesbian and
+                    Religious.{" "}
                     <a
                       className="pubLink"
                       target="_blank"
@@ -786,9 +787,9 @@ export default class Publications extends React.Component {
                   </h6>
 
                   <h6 className="publication">
-                    Naidu, M. (2007). Taking your God into the Classroom, Religious
-                    Education and Religion Education: The Westville Hindu School
-                    as an Alternate Model of Education.{" "}
+                    Naidu, M. (2007). Taking your God into the Classroom,
+                    Religious Education and Religion Education: The Westville
+                    Hindu School as an Alternate Model of Education.{" "}
                     <a
                       className="pubLink"
                       target="_blank"
@@ -801,7 +802,8 @@ export default class Publications extends React.Component {
                     , 19(12), 59-88.
                   </h6>
                   <h6 className="publication">
-                    Naidu, M. (2005). Religious Belonging and Identity among South African Hindu Women. <i>Journal of Dharma</i>.
+                    Naidu, M. (2005). Religious Belonging and Identity among
+                    South African Hindu Women. <i>Journal of Dharma</i>.
                   </h6>
                   <h6 className="publication">
                     Naidu, M. (2003). Business Suits and Priests: The Politics
@@ -869,16 +871,16 @@ export default class Publications extends React.Component {
               <Row>
                 <Col md="auto">
                   <h6 className="publication">
-                    Naidu M. &amp; Mazibuko, N. (2015). Izikhothani Perceptions
-                    on Women, Sex and Sexuality. <i>Oriental Anthropologists</i>
-                    , Vol. 15.{" "}
+                    Naidu, M. &amp; Mazibuko N (2015). The ‘First Skin’: Clothes
+                    and Masculinity amongst the Izikhothani.{" "}
+                    <i>Journal of Social Sciences</i>, 45(3), 212-220.
                     <a
                       className="pubLink"
                       target="_blank"
-                      href="https://journals.sagepub.com/doi/abs/10.1177/0976343020160101?journalCode=oana"
+                      href="https://www.tandfonline.com/doi/abs/10.1080/09718923.2015.11893503"
                     >
                       {" "}
-                      DOI: 10.1177/0976343020160101
+                      DOI: 10.1080/09718923.2015.11893503{" "}
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -1015,10 +1017,10 @@ export default class Publications extends React.Component {
                     , (Ed) Shalina Mehta, India: Kre Publishers, 2010.
                   </h6>
                   <h6 className="publication">
-                    Revisiting Standpoint Theory through Ethnographic Vignettes
-                    in{" "}
+                    Revisiting Standpoint Theory through Situated Ethnographic
+                    Vignettes in{" "}
                     <i>
-                      Introduction to Gender Studies in eastern and Southern
+                      Introduction to Gender Studies in Eastern and Southern
                       Africa: A Reader
                     </i>
                     , (Ed) James Etim. USA: Sentient Publishers, 2016.
@@ -1034,8 +1036,12 @@ export default class Publications extends React.Component {
 
                   <h6 className="publication">
                     Teaching and Learning with Video and Video-Ethnography: Some
-                    Pedagogic Reflections from Classroom Practice, (Ed) James
-                    Etim. USA: Nova Science Publishers, 2018.
+                    Pedagogic Reflections from Classroom Practice in{" "}
+                    <i>
+                      USA: Nova Science Publishers, 2018.eaching Strategies:
+                      Perspectives, Challenges and Outcomes
+                    </i>
+                    . (Ed) James Etim.
                   </h6>
                 </Col>
               </Row>
