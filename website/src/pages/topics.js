@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 import Carousel from "react-bootstrap/Carousel";
 import "./App.css";
 
-export default class Teaching extends React.Component {
+export default class Topics extends React.Component {
   render() {
     return (
       <div className="App-body">

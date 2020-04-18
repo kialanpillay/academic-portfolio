@@ -9,9 +9,9 @@ import Home from "./pages/home";
 import Projects from "./pages/projects";
 import Publications from "./pages/publications";
 import Presentations from "./pages/presentations";
-import Editorial from "./pages/editorial";
+import Editorial from "./pages/editorials";
 import Teaching from "./pages/teaching";
-import Theses from "./pages/theses";
+import Topics from "./pages/topics";
 import Awards from "./pages/awards";
 import "./pages/App.css";
 import image from "./assets/1200px-UKZN_logo.svg.png";
@@ -110,7 +110,7 @@ export default class App extends React.Component {
                 <Teaching />
               </Route>
               <Route path="/theses">
-                <Theses />
+                <Topics />
               </Route>
               <Route path="/awards">
                 <Awards />
