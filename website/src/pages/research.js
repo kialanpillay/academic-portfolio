@@ -9,7 +9,8 @@ import Button from "react-bootstrap/Button";
 import Carousel from "react-bootstrap/Carousel";
 import "./App.css";
 import image01 from "../assets/Mellon-Found-Logo.png";
-import image03 from "../assets/b2ap3_large_ford-foundation-logo.png";
+import image02 from "../assets/logo-nrf.jpg";
+import image03 from "../assets/ford-foundation-logo.jpg";
 
 export default class Research extends React.Component {
   render() {
@@ -70,7 +71,7 @@ export default class Research extends React.Component {
             <Col md="auto">
               <Carousel
                 style={{
-                  height: "8rem",
+                  height: "20rem",
                   width: "40rem",
                   color: "#282c34",
                 }}
@@ -81,6 +82,16 @@ export default class Research extends React.Component {
                     alignItems: "left",
                   }}
                 >
+                  <img
+                    width="250"
+                    src={image01}
+                    alt="Mellon Foundation"
+                    style={{
+                      marginBottom: "1rem",
+                      border: "1px solid whitesmoke",
+                      borderRadius: "5px",
+                    }}
+                  />
                   <h3 className="projectSubtitle">Mellon Foundation</h3>
                   <a className="funderLink" href={"https://mellon.org"}>
                     <h4>Project Funder</h4>
@@ -92,6 +103,17 @@ export default class Research extends React.Component {
                     alignItems: "center",
                   }}
                 >
+                  {" "}
+                  <img
+                    width="400"
+                    src={image03}
+                    alt="Ford Foundation"
+                    style={{
+                      marginBottom: "1rem",
+                      border: "1px solid whitesmoke",
+                      borderRadius: "5px",
+                    }}
+                  />
                   <h3 className="projectSubtitle">Ford Foundation</h3>
                   <a className="funderLink" href={"https://fordfoundation.org"}>
                     <h4>Project Funder</h4>
@@ -103,6 +125,16 @@ export default class Research extends React.Component {
                     alignItems: "center",
                   }}
                 >
+                  <img
+                    width="250"
+                    src={image02}
+                    alt="NRF"
+                    style={{
+                      marginBottom: "1rem",
+                      border: "1px solid whitesmoke",
+                      borderRadius: "5px",
+                    }}
+                  />
                   <h3 className="projectSubtitle">
                     National Research Foundation
                   </h3>

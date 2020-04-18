@@ -17,7 +17,7 @@ export default class Home extends React.Component {
           <h1 id="tag">Academic. Researcher. Social Scientist.</h1>
           <h4 id="name">Professor Maheshvari Naidu</h4>
           <p>
-            BA <i>UDW</i>, BA Hons (cum laude), MA (cum laude), PhD <i>UKZN</i>
+            BA UDW, BA Hons (cum laude), MA (cum laude), PhD UKZN
           </p>
         </Jumbotron>
         <Container

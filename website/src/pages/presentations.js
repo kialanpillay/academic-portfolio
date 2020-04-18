@@ -32,7 +32,7 @@ function Presentations() {
             <h6 className="presentation">Presentation: Faith and Experiences of Lesbian Women in Church</h6>
             <h6 className="presentation">Workshop: Body Work and Trauma</h6>
             <h6 className="presentation">Workshop: Doing Self-work and Self-care in the Context of Gender Activism</h6>
-            <h6 className="presentation">Public Lecture: Queering or Querying: Theory and Activism around LBGTI Issues in SA</h6>
+            <h6 className="presentation">Lecture: Queering or Querying: Theory and Activism around LBGTI Issues in SA</h6>
             <h6 className="presentation">Research Seminar: Mobility and Foreign Students in Higher Education</h6>
             <h6 className="presentation">Keynote Address: Mobility Pathways of Foreign African Students</h6>
             <h6 className="presentation">Public Seminar: Doing Ethnographic Work in the Context of Tourism Studies</h6>
@@ -46,7 +46,7 @@ function Presentations() {
             <h6 className="location">Syracuse University, Gender Department, Italy (2014)</h6>
             <h6 className="location">Mauritius Institute of Education, Mauritius (2014)</h6>
             <h6 className="location">2nd International Conference in Education, Malaysia (2014)</h6>
-            <h6 className="location">3rd International Interdisciplinary Tourism Conference, Turkey (2014)</h6>
+            <h6 className="location">3rd Interdisciplinary Tourism Conference, Turkey (2014)</h6>
             <h6 className="location">Syracuse University, Gender Department, Italy (2012)</h6>
           </Col>
         </Row>

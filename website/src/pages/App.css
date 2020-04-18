@@ -35,7 +35,6 @@ html {
 #jumbo {
   background-image: linear-gradient(to left, rgba(255,0,0,0.3), rgba(246,195,68,1));
   color: #282c34;
-  max-height: 32vh;
 }
 
 .heading {
@@ -154,7 +153,7 @@ html {
 
 .projectContent {
   text-align: justify;
-  font-size: 1.2rem;
+  font-size: 1rem;
   width: 70%;
   color: #282c34;
   display: inline-block;
