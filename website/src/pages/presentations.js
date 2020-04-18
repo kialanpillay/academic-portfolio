@@ -52,7 +52,7 @@ export default class Presentations extends React.Component {
                 <a
                   className="link"
                   target="_blank"
-                  href="http://ndaba-online.ukzn.ac.za/UkzndabaStory/1177/anthropology-professor-presents-teaching-seminar-in-switzerland/#sthash.z0csnJzu.dpbs"
+                  href="https://graduate.aur.edu/news/sustainable-cultural-heritage-master-program-welcomes-guest-lecturer-dr-maheshvari-naidu"
                 >
                   Masters Seminar: Memory, Paleo-anthropology and African
                   Branding
@@ -62,9 +62,18 @@ export default class Presentations extends React.Component {
                 <a
                   className="link"
                   target="_blank"
-                  href="https://graduate.aur.edu/events/repositioning-memory-and-heritage-anthropology-tourism-robben-island-museum"
+                  href="http://ndaba-online.ukzn.ac.za/UkzndabaStory/1177/anthropology-professor-presents-teaching-seminar-in-switzerland/#sthash.z0csnJzu.dpbs"
                 >
                   Presentation: Faith and Experiences of Lesbian Women in Church
+                </a>
+              </h6>
+              <h6 className="presentation">
+                <a
+                  className="link"
+                  target="_blank"
+                  href="https://graduate.aur.edu/events/repositioning-memory-and-heritage-anthropology-tourism-robben-island-museum"
+                >
+                  Masters Seminar: (Re)positioning Memory and Heritage
                 </a>
               </h6>
               <h6 className="presentation">
@@ -119,10 +128,13 @@ export default class Presentations extends React.Component {
             </Col>
             <Col md="auto">
               <h6 className="location">
-                Graduate Institute, Gender Centre, Switzerland (2018)
+                American University at Rome, Italy (2018)
               </h6>
               <h6 className="location">
-                American University at Rome, Italy (2017)
+                Graduate Institute, Gender Centre, Switzerland (2017)
+              </h6>
+              <h6 className="location">
+                American University at Rome, Italy (2016)
               </h6>
               <h6 className="location">
                 Ministry of Social Work, Seychelles (2016)
