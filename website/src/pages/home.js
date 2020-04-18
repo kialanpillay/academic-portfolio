@@ -8,17 +8,34 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import "./App.css";
+import image from "../assets/IMG_4579.JPG";
 
 export default class Home extends React.Component {
   render() {
     return (
       <div className="App-body">
         <Jumbotron id="jumbo">
-          <h1 id="tag">Academic. Researcher. Social Scientist.</h1>
-          <h4 id="name">Professor Maheshvari Naidu</h4>
-          <p>
-            BA UDW, BA Hons (cum laude), MA (cum laude), PhD UKZN
-          </p>
+          <Container>
+            <Row>
+              <Col md="auto">
+                <img
+                  width="120"
+                  id="picture"
+                  src={image}
+                  alt="Ford Foundation"
+                  style={{
+                    marginLeft: "0rem",
+                    borderRadius: "4px",
+                  }}
+                />
+              </Col>
+              <Col>
+                <h1 id="tag">Academic. Researcher. Social Scientist.</h1>
+                <h4 id="name">Professor Maheshvari Naidu</h4>
+                <p id="q">BA UDW, BA Hons (cum laude), MA (cum laude), PhD UKZN</p>
+              </Col>
+            </Row>
+          </Container>
         </Jumbotron>
         <Container
           style={{
@@ -39,9 +56,9 @@ export default class Home extends React.Component {
                 </Card.Text>
                 <Card.Text id="bio">
                   She is widely published with work that cuts across multiples
-                  disciplines and is on the editorial boards of the
-                  journals, <i>Anthropology Southern Africa </i> (Taylor and
-                  Francis) and <i>Oriental Anthropologist </i>(Sage).
+                  disciplines and is on the editorial boards of the journals,{" "}
+                  <i>Anthropology Southern Africa </i> (Taylor and Francis) and{" "}
+                  <i>Oriental Anthropologist </i>(Sage).
                 </Card.Text>
                 <Card.Text id="bio">
                   She teaches from a critical feminist perspective and is
@@ -130,7 +147,10 @@ export default class Home extends React.Component {
         </Container>
         <footer id="footer">
           WEB DESIGN:{" "}
-          <a className="footerLink" href="https://www.linkedin.com/in/kialan-p-a63779140/">
+          <a
+            className="footerLink"
+            href="https://www.linkedin.com/in/kialan-p-a63779140/"
+          >
             KIALAN PILLAY
           </a>{" "}
           <a className="footerLink" href="https://kialan.co.za">

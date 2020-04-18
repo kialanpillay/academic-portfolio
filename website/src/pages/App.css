@@ -52,6 +52,10 @@ html {
   font-weight: 600;
 }
 
+#picture {
+  display: inline-block;
+}
+
 .largeText {
   text-align: left;
   color: #282c34;
@@ -86,6 +90,17 @@ html {
 .text {
   color: #282c34;
   font-size: 0.8rem;
+  text-align: left;
+}
+
+#tag {
+  text-align: left;
+}
+
+#name {
+  text-align: left;
+}
+#q {
   text-align: left;
 }
 
