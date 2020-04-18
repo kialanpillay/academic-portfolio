@@ -879,7 +879,7 @@ export default class Publications extends React.Component {
                       href="https://journals.sagepub.com/doi/abs/10.1177/0976343020160101?journalCode=oana"
                     >
                       {" "}
-                      DOI: 10-1177/0976343020160101
+                      DOI: 10.1177/0976343020160101
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -896,7 +896,7 @@ export default class Publications extends React.Component {
                     </a>
                   </h6>
                   <h6 className="publication">
-                    Naidu, M. (2014). Communicating ‘Self’: Language and Issues
+                    Naidu, M. (2014). Communicating "Self": Language and Issues
                     of Belonging.{" "}
                     <a
                       className="pubLink"
