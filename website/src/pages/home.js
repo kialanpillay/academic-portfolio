@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
@@ -77,12 +78,10 @@ export default class Home extends React.Component {
                 <Card.Body>
                   <Card.Title>Research</Card.Title>
                   <Card.Text>Explore my publications and projects.</Card.Text>
-                  <Button
-                    className="button"
-                    href="research"
-                    variant="outline-warning"
-                  >
-                    Explore
+                  <Button className="button" variant="warning">
+                    <Link className="buttonLink" to="/research">
+                      Explore
+                    </Link>
                   </Button>
                 </Card.Body>
               </Card>
@@ -99,12 +98,10 @@ export default class Home extends React.Component {
                 <Card.Body>
                   <Card.Title>Teaching</Card.Title>
                   <Card.Text>Explore my students and supervision.</Card.Text>
-                  <Button
-                    className="button"
-                    variant="outline-warning"
-                    href="teaching"
-                  >
-                    Explore
+                  <Button className="button" variant="warning">
+                    <Link className="buttonLink" to="/teaching">
+                      Explore
+                    </Link>
                   </Button>
                 </Card.Body>
               </Card>
@@ -121,12 +118,10 @@ export default class Home extends React.Component {
                 <Card.Body>
                   <Card.Title>Awards</Card.Title>
                   <Card.Text>Explore my grants and awards.</Card.Text>
-                  <Button
-                    className="button"
-                    variant="outline-warning"
-                    href="awards"
-                  >
-                    Explore
+                  <Button className="button" variant="warning">
+                    <Link className="buttonLink" to="/awards">
+                      Explore
+                    </Link>
                   </Button>
                 </Card.Body>
               </Card>

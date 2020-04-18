@@ -35,7 +35,7 @@ export default class Publications extends React.Component {
             }}
           >
             <Col md="auto">
-              <h1 className="largeHeading" id="publications">
+              <h1 className="largeHeading" id="top">
                 Publications
               </h1>
             </Col>
@@ -434,7 +434,7 @@ export default class Publications extends React.Component {
                   <Button
                     className="button"
                     variant="outline-warning"
-                    href="#publications"
+                    href="#top"
                   >
                     Back to Top
                   </Button>

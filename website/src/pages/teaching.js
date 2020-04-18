@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
+import { Link } from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
@@ -21,9 +22,7 @@ export default class Teaching extends React.Component {
             }}
           >
             <Col md="auto">
-              <h1 className="largeHeading">
-                Graduated Students
-              </h1>
+              <h1 className="largeHeading">Graduated Students</h1>
             </Col>
           </Row>
           <Row
@@ -51,13 +50,10 @@ export default class Teaching extends React.Component {
             }}
           >
             <Col md="auto">
-              <Button
-                className="button"
-                variant="warning"
-                size="lg"
-                href="topics"
-              >
-                View Details
+              <Button className="button" variant="warning" size="lg">
+                <Link className="buttonLink" to="/topics">
+                  View Details
+                </Link>
               </Button>
             </Col>
           </Row>

@@ -123,6 +123,15 @@ html {
   text-decoration: underline;
 }
 
+.buttonLink {
+  color: #282c34;
+}
+
+.buttonLink:hover {
+  color: #282c34;
+  text-decoration: none;
+}
+
 .pubLink:hover {
   color: #f6c444;
 }
