@@ -30,7 +30,7 @@ export default class Editorial extends React.Component {
           </Row>
           <Row
             style={{
-              marginBottom: "4rem",
+              paddingBottom: "1rem",
             }}
           >
             
@@ -57,7 +57,7 @@ export default class Editorial extends React.Component {
                     and Humanities in Southern Africa{" "}
                   </i>
                 </h4>
-                <h4 className="vertical-timeline-element-subtitle">2016 - Present"</h4>
+                <h4 className="vertical-timeline-element-subtitle">2015 - Present"</h4>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -193,7 +193,7 @@ export default class Editorial extends React.Component {
               >
                 <h3 className="vertical-timeline-element-title">Editor</h3>
                 <h4 className="vertical-timeline-element-subtitle">
-                  <i>Nidan: International Journal for Hinduism</i>
+                  <i>Nidan: International Journal for the Study of Hinduism</i>
                 </h4>
                 <h4 className="vertical-timeline-element-subtitle">2009</h4>
               </VerticalTimelineElement>

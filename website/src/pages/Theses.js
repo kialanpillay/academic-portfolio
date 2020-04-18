@@ -45,7 +45,6 @@ export default class Teaching extends React.Component {
               <p className="topic">Township Masculinities</p>
               <p className="topic">Constructions of Health and Illness</p>
               <p className="topic">Medical Male Circumcision</p>
-              <p className="topic">Female Condom Use</p>
             </Carousel.Item>
             <Carousel.Item
               style={{
@@ -62,9 +61,7 @@ export default class Teaching extends React.Component {
               <p className="topic">
                 Masculinized Care-Patient Health Care Models for Breast Cancer
               </p>
-              <p className="topic">
-                Conflict Transformation in Africa - The case of Lesotho and Congo
-              </p>
+              <p className="topic">Conflict Transformation in Africa</p>
             </Carousel.Item>
             <Carousel.Item
               style={{
@@ -81,10 +78,10 @@ export default class Teaching extends React.Component {
                 Education
               </p>
               <p className="topic">Indigenous Conflict Resolution Methods</p>
-              <p className="topic">
-                Conflict Transformation in Africa-The case of Lesotho and Congo
-              </p>
               <p className="topic">Traditional Birth Attendants</p>
+              <p className="topic">
+                Gender and Social Construction of Womanhood among Shangaan
+              </p>
             </Carousel.Item>
             <Carousel.Item
               style={{
@@ -92,9 +89,6 @@ export default class Teaching extends React.Component {
                 alignItems: "center",
               }}
             >
-              <p className="topic">
-                Gender and Social Construction of Womanhood among Shangaan
-              </p>
               <p className="topic">Gendered Water Practices</p>
               <p className="topic">Power and Transactional Sex</p>
               <p className="topic">Xenophobia and Human Security</p>
@@ -104,6 +98,7 @@ export default class Teaching extends React.Component {
               <p className="topic">
                 Sexist Humour and Misogyny in Higher Education Institutions
               </p>
+              <p className="topic">Female Condom Use</p>
             </Carousel.Item>
           </Carousel>
         </Container>

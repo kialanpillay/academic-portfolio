@@ -1,15 +1,14 @@
 .App {
   text-align: center;
   min-height: 100vh;
-  /*background-image: linear-gradient(to left, rgb(218, 218, 218), rgb(255, 255, 255));*/
-  background-color: #F0F0F0;
+  background-image: linear-gradient(to left, #E0E0E0, white);
 }
 /*#282c34*
 #cb444b*/
 .App-body {
   color: whitesmoke;
   /*background-image: linear-gradient(to left, rgb(218, 218, 218), rgb(255, 255, 255));*/
-  background-color: #F0F0F0;
+  background-color: transparent;
 }
 
 svg {
@@ -20,7 +19,7 @@ svg {
 
 html {
   /*background-image: linear-gradient(to left, rgb(218, 218, 218), rgb(255, 255, 255));*/
-  background-color: #F0F0F0;;
+  background-color: transparent;
 }
 
 .profile {
@@ -34,7 +33,7 @@ html {
 }
 
 #jumbo {
-  background-image: linear-gradient(to right, rgba(255,0,0,0.3), rgba(246,195,68,1));
+  background-image: linear-gradient(to left, rgba(255,0,0,0.3), rgba(246,195,68,1));
   color: #282c34;
   max-height: 32vh;
 }
@@ -119,6 +118,14 @@ html {
   text-align: left;
 }
 
+.pubLink {
+  color: #f6c444;
+}
+
+.pubLink:hover {
+  color: #282c34;
+}
+
 .link {
   color: #282c34;
 }
@@ -186,7 +193,7 @@ html {
 
 #footer {
   bottom: 0;
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
   padding-left: 1rem;
   width: 100%;
   font-size: 0.7rem;

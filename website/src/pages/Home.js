@@ -33,15 +33,14 @@ export default class Home extends React.Component {
                   both institutional and national recognition for her research.
                   In 2013 she won a National Award from the Department of
                   Science and Technology for Women in Science. She was the first
-                  person in the College of Humanities and the first woman at
-                  UKZN to obtain the PhD by Publication.
+                  person in the College of Humanities and the first female
+                  academic at UKZN to obtain the PhD by Publication.
                 </Card.Text>
                 <Card.Text id="bio">
                   She is widely published with work that cuts across multiples
                   disciplines and is on the editorial boards of the prestigious
-                  journals, Anthropology Southern Africa{" "}
-                  <i>(Taylor and Francis)</i> and Oriental Anthropologist{" "}
-                  <i>(Sage)</i>.
+                  journals, <i>(Anthropology Southern Africa </i> Taylor and
+                  Francis) and <i>Oriental Anthropologist </i>(Sage).
                 </Card.Text>
                 <Card.Text id="bio">
                   She teaches from a critical feminist perspective and is
@@ -100,7 +99,11 @@ export default class Home extends React.Component {
                 <Card.Body>
                   <Card.Title>Teaching</Card.Title>
                   <Card.Text>Explore my students and supervision.</Card.Text>
-                  <Button className="button" variant="outline-warning" href="/teaching">
+                  <Button
+                    className="button"
+                    variant="outline-warning"
+                    href="/teaching"
+                  >
                     Explore
                   </Button>
                 </Card.Body>
@@ -118,7 +121,11 @@ export default class Home extends React.Component {
                 <Card.Body>
                   <Card.Title>Awards</Card.Title>
                   <Card.Text>Explore my grants and awards.</Card.Text>
-                  <Button className="button" variant="outline-warning">
+                  <Button
+                    className="button"
+                    variant="outline-warning"
+                    href="/awards"
+                  >
                     Explore
                   </Button>
                 </Card.Body>
@@ -127,12 +134,12 @@ export default class Home extends React.Component {
           </Row>
         </Container>
         <footer id="footer">
-            WEB DESIGN:{" "}
-            <a className="footerLink" href="https://kialan.co.za">
-              KIALAN PILLAY
-            </a>{" "}
-            c/o ALPHA Q LABS.
-          </footer>
+          WEB DESIGN:{" "}
+          <a className="footerLink" href="https://kialan.co.za">
+            KIALAN PILLAY
+          </a>{" "}
+          c/o ALPHA Q LABS.
+        </footer>
       </div>
     );
   }

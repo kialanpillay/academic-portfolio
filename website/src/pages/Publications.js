@@ -25,7 +25,7 @@ export default class Publications extends React.Component {
       <div className="App-body">
         <Container
           style={{
-            marginBotton: "2rem",
+            marginBotton: "0rem",
           }}
         >
           <Row
@@ -35,7 +35,9 @@ export default class Publications extends React.Component {
             }}
           >
             <Col md="auto">
-              <h1 className="largeHeading" id="publications">Publications</h1>
+              <h1 className="largeHeading" id="publications">
+                Publications
+              </h1>
             </Col>
           </Row>
           <Tabs activeKey={this.state.key} onSelect={(k) => this.setKey(k)}>
@@ -43,7 +45,7 @@ export default class Publications extends React.Component {
               eventKey="peer"
               title="Peer-Reviewed Journals"
               style={{
-                marginBottom: "2rem",
+                marginBottom: "0rem",
               }}
             >
               <Row
@@ -52,7 +54,7 @@ export default class Publications extends React.Component {
                 }}
               >
                 <Col md="auto">
-                  <h1 className="largeText">Peer-Reviewed Journals</h1>
+                  <h1 className="largeText">Peer-Reviewed Journal Articles</h1>
                 </Col>
               </Row>
               <Row>
@@ -64,21 +66,39 @@ export default class Publications extends React.Component {
                     31-44.
                   </h6>
                   <h6 className="presentation">
-                    Makanda, J. &amp; Naidu, M. (2019). The South Africa’s
+                    Makanda, J. &amp; Naidu, M. (2019). South Africa’s
                     Peacebuilding Interventions in the Democratic Republic of
                     Congo: Insights from the Congolese Refugees in Johannesburg,
                     Cape Town and Durban.{" "}
                     <i>Journal of African Foreigners Affairs</i>. 6(1), 65-84.
                   </h6>
                   <h6 className="presentation">
-                    Naidu, M. &amp; Benhura, A. (2018). Humanitarianism in
+                    Benhura, AR. &amp; Naidu, M. (2019). Delineating caveats for
+                    (quality) education during displacement: Critiquing the
+                    impact of forced migration on access to education.{" "}
+                    <i>Migration Studies</i>. doi:{" "}
+                    <a
+                      className="pubLink"
+                      href="https://doi.org/10.1093/migration/"
+                    >
+                      https://doi.org/10.1093/migration/
+                    </a>
+                  </h6>
+                  <h6 className="presentation">
+                    Mutambara, V. &amp; Naidu, M. (2019). The Human Security
+                    Implications of Migration on Zimbabwean Migrant Women in
+                    South Africa. <i>African Human Mobility Review</i>. 5(3)
+                    174-179.
+                  </h6>
+                  <h6 className="presentation">
+                    Naidu, M. &amp; Benhura, AR. (2018). Humanitarianism in
                     Praxis? Probing Power Dynamics Around Key Actors in
                     Zimbabwe’s Forced Migration.{" "}
                     <i>Journal of International Migration and Integration</i>,
                     20(13), 735-749.
                   </h6>
                   <h6 className="presentation">
-                    Naidu, M (2018). The Butcher, the Baker, the Brewer …and
+                    Naidu, M. (2018). The Butcher, the Baker, the Brewer …and
                     Barber: Reflections on Migrant Micro- Entrepreneurship and
                     Informal Economies.{" "}
                     <i>Journal of Social Development in Africa</i>, 33 (2),
@@ -97,14 +117,16 @@ export default class Publications extends React.Component {
                     <i>Journal of Social Development in Africa</i>, 32(2).
                   </h6>
                   <h6 className="presentation">
-                    Naidu, M &amp; Mutambara, V. (2017). Questioning
+                    Naidu, M. &amp; Mutambara, V. (2017). Questioning
                     Heteronormative in Higher Education Spaces.{" "}
                     <i>South African Journal of Higher Education</i>,Vol.31.
                     doi: 10.20853/31-4-1320.
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. (2017). When My Body is in the Way: Body Mapping
-                    &amp; Positionality. <i>Agenda</i>, 32(2),106-112.
+                    &amp; Positionality.{" "}
+                    <i>Agenda: Empowering Women for Gender Equity</i>,
+                    32(2),106-112.
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. (2016). Displaced Sense: Displacement &amp;
@@ -112,18 +134,19 @@ export default class Publications extends React.Component {
                     29(1), 104-126.
                   </h6>
                   <h6 className="presentation">
-                    10. Naidu, M (2016). ‘’Plastic Migrants and’’ and Deprived
+                    10. Naidu, M. (2016). ‘’Plastic Migrants and’’ and Deprived
                     Livelihoods: Resettlement &amp; Forced Migration.{" "}
                     <i>Migracijske i etničke teme</i>, 32(2), 221-244.
                   </h6>
                   <h6 className="presentation">
-                    Naidu, M &amp; Benhura, A (2016). Gazing on Xenophobia:
+                    Naidu, M. &amp; Benhura, AR. (2016). Gazing on Xenophobia:
                     Issues of Foreigness and (non)Belonging.{" "}
                     <i>Journal of Social Development in Africa</i>, 31(1), 7-26
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. (2015). I want love too... What is so wrong with
-                    that? <i>Agenda</i>, 29(2), 44-53.
+                    that? <i>Agenda: Empowering Women for Gender Equity</i>,
+                    29(2), 44-53.
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. &amp; Darong G. (2015). When Illness is more than
@@ -132,10 +155,10 @@ export default class Publications extends React.Component {
                     91-108.
                   </h6>
                   <h6 className="presentation">
-                    Naidu, M. &amp; Benhura, A. (2015). Caught Between
+                    Naidu, M. &amp; Benhura, AR. (2015). Caught Between
                     Definitions: Locating the Zimbabwean Internal Displacement
                     within the Global Humanitarian Regime Support.{" "}
-                    <i>The Oriental Anthropologist</i>. doi:
+                    <i>The Oriental Anthropologist</i>, 17(2), 337-256. doi:
                     10-1177/0976343020170202.
                   </h6>
                   <h6 className="presentation">
@@ -155,12 +178,7 @@ export default class Publications extends React.Component {
                     <i>Ethno Medicine</i>. 9(3), 289-295.
                   </h6>
                   <h6 className="presentation">
-                    Naidu M &amp; Mazibuko, N. (2015). Izikhothani Perceptions
-                    on Women, Sex and Sexuality. <i>Oriental Anthropologists</i>
-                    , Vol. 15. doi: 10-1177/0976343020160101.
-                  </h6>
-                  <h6 className="presentation">
-                    Naidu, M &amp; Khumalo S. (2015). I’m Circumcised so
+                    Naidu, M. &amp; Khumalo S. (2015). I’m Circumcised so
                     HIV/AIDS Can’t Touch Me: Young Black African University Men
                     and Narratives of Masculinity.{" "}
                     <i>The Oriental Anthropologist</i>, 16, 163-181.
@@ -168,7 +186,7 @@ export default class Publications extends React.Component {
                   <h6 className="presentation">
                     Naidu, M. (2014). Social Face of Networks: The Features of
                     Maintaining Self in Migrant Space.{" "}
-                    <i>Sociological Bulletin</i>, 63(1), 41-58.
+                    <i>Sociological Bulletin</i>, 16(1), 41-58.
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. &amp; Nzuza, N. (2014). Transnationalised Memories
@@ -191,7 +209,8 @@ export default class Publications extends React.Component {
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. (2013). Pedagogies of Belief: Teaching and
-                    Learning in a Small Christian School. <i>AlterNation</i>,
+                    Learning in a Small Christian School. <i>AlterNation: Interdisciplinary Journal for the Study of
+                      Art and Humanities in Southern Africa</i>,
                     10, 200-220.
                   </h6>
                   <h6 className="presentation">
@@ -205,7 +224,8 @@ export default class Publications extends React.Component {
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. &amp; Ngqila K. (2013). Enacting Masculinities:
-                    Pleasure to Men and Violence to Women. <i>Agenda</i>, 26(1),
+                    Pleasure to Men and Violence to Women.{" "}
+                    <i>Agenda: Empowering Women for Gender Equity</i>, 26(1),
                     1-10.
                   </h6>
                   <h6 className="presentation">
@@ -235,11 +255,6 @@ export default class Publications extends React.Component {
                       Art and Humanities in Southern Africa
                     </i>{" "}
                     20(2), 147-163.
-                  </h6>
-                  <h6 className="presentation">
-                    Naidu, M. &amp; Nzuza, N. (2013). Stories of the ‘Call” in a
-                    Pentecostal Church. <i>Journal of Social Sciences</i>,
-                    36(2), 153-163.
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. (2012). (Editorial) Mobilities and Transnational
@@ -281,12 +296,14 @@ export default class Publications extends React.Component {
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. (2011). Shaping and Gazing on Foreign African
-                    Female Bodies. <i>The Oriental Anthropologis</i>, 11(2).
+                    Female Bodies. <i>The Oriental Anthropologis</i>, 11(2), 1-25.
                     doi: 10.1177/0976343020110205.
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. (2011). Indian Women in Marriage: When Sacred
-                    Thread becomes a Noose. <i>Agenda</i>, 25(1), 84-92.
+                    Thread becomes a Noose.{" "}
+                    <i>Agenda: Empowering Women for Gender Equity</i>, 25(1),
+                    84-92.
                   </h6>
                   <h6 className="presentation">
                     Naidu, M (2011). Gendered Religion: Auto-ethnography as
@@ -310,25 +327,20 @@ export default class Publications extends React.Component {
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. (2010). Wrestling with Standpoint Theory: Some
-                    Thoughts on Standpoint and African Feminism. <i>Agenda</i>,
-                    83(2010), 24-35.
+                    Thoughts on Standpoint and African Feminism.{" "}
+                    <i>Agenda: Empowering Women for Gender Equity</i>, 83(2),
+                    24-35.
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. &amp; Ojong V. (2010). (Re) Producing Motherhood:
                     Comparative Study of Hindu and Christian Women in Religion.{" "}
-                    <i>Nidan: International Journal of Indian Studies</i>, 22
+                    <i>Nidan: International Journal for the Study of Hinduism</i>, 22
                     (1), 96-112.
                   </h6>
                   <h6 className="presentation">
-                    Naidu, M. (2010). "Tied to Each Other": Religion and
-                    Networked Capital. <i>The Anthropologist</i>, Special
-                    Volume.
-                  </h6>
-
-                  <h6 className="presentation">
                     Naidu, M. &amp; Shukla, U (2010). Hindu Studies: Studying
                     the “Past-Present”,{" "}
-                    <i>Nidan: International Journal of Indian Studies</i>, 22(1)
+                    <i>Nidan: International Journal for the Study of Hinduism</i>, 22(1)
                     VI-VIII.
                   </h6>
                   <h6 className="presentation">
@@ -343,7 +355,9 @@ export default class Publications extends React.Component {
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. (2009). Top-less Tradition for Tourists: Young
-                    Zulu Girls in Tourism. <i>Agenda</i>, 23(79), 38-48
+                    Zulu Girls in Tourism.{" "}
+                    <i>Agenda: Empowering Women for Gender Equity</i>, 23(79),
+                    38-48
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. (2009). Glaring Invisibility: Dressing the Body of
@@ -352,14 +366,10 @@ export default class Publications extends React.Component {
                     32(3-4), 128-138.
                   </h6>
                   <h6 className="presentation">
-                    Naidu, M. (2009). Constructing the Religious 'Other'.{" "}
-                    <i>Nidan: International Journal of Indian Studies </i>, Vol.
-                    21.
-                  </h6>
-                  <h6 className="presentation">
                     Naidu, M. (2008). Anthropology of (Female) Body: Site of
-                    Hi-jacking in the HIV/AIDS Discourse. <i>, Agenda, </i>,
-                    1(1), 78-90.
+                    Hi-jacking in the AIDS Discourse.{" "}
+                    <i>Agenda: Empowering Women for Gender Equity</i>, 22(1),
+                    78-90.
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. (2008). Inscribing the Female Body: Fuzzy Gender
@@ -369,13 +379,14 @@ export default class Publications extends React.Component {
                   <h6 className="presentation">
                     Naidu, M. (2008). The Mobile Global Subject: Mobility and
                     Transnationalising Hinduism.{" "}
-                    <i>Nidan: International Journal of Indian Studies</i>,, 20,
+                    <i>Nidan: International Journal for the Study of Hinduism</i>,, 20,
                     16-31.
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. (2010). Wrestling with Standpoint Theory: Some
-                    Thoughts on Standpoint and African Feminism. <i>Agenda</i>,
-                    83(2010), 24-35.
+                    Thoughts on Standpoint and African Feminism.{" "}
+                    <i>Agenda: Empowering Women for Gender Equity</i>, 83(2010),
+                    24-35.
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. (2008). Eco-femin(ism) and
@@ -390,7 +401,7 @@ export default class Publications extends React.Component {
 
                   <h6 className="presentation">
                     Naidu, M. (2007). Religion Education or Religious Education,{" "}
-                    <i>Nidan: International Journal of Indian Studies</i>, Vol.
+                    <i>Nidan: International Journal for the Study of Hinduism</i>, Vol.
                     15.
                   </h6>
                   <h6 className="presentation">
@@ -398,14 +409,12 @@ export default class Publications extends React.Component {
                     South Africa. <i>Journal of Dharma</i>.
                   </h6>
                   <h6 className="presentation">
-                    Naidu, M. (2003). Business Suits Priests: Power and
-                    Priesthood.{" "}
-                    <i>Nidan: International Journal of Indian Studies</i>, Vol.
-                    15.
+                    Naidu, M. (2003). Business Suits and Priests: The Politics of Sacred Space.{" "}
+                    <i>Nidan: International Journal for the Study of Hinduism</i>, 15, 1-15.
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. (1999). Marriage Reaffirming Sacred Space.{" "}
-                    <i>Nidan: International Journal of Indian Studies</i>, 11,
+                    <i>Nidan: International Journal for the Study of Hinduism</i>, 11,
                     52-76.
                   </h6>
                   <h6 className="presentation">
@@ -416,7 +425,11 @@ export default class Publications extends React.Component {
                   </h6>
                 </Col>
               </Row>
-              <Row>
+              <Row
+                style={{
+                  paddingBottom: "2rem",
+                }}
+              >
                 <Col md="auto">
                   <Button
                     className="button"
@@ -435,14 +448,20 @@ export default class Publications extends React.Component {
                 }}
               >
                 <Col md="auto">
-                  <h1 className="largeText">Non-Accredited Journals</h1>
+                  <h1 className="largeText">Non-Accredited Journal Articles</h1>
                 </Col>
               </Row>
               <Row>
                 <Col md="auto">
                   <h6 className="presentation">
-                    Naidu, M. &amp; Darong, G. (2015). Narratives of Sangoma
-                    Nurses. <i>Studies in Ethno-Medicine</i>, 9(3), 289-295.
+                    Naidu M. &amp; Mazibuko, N. (2015). Izikhothani Perceptions
+                    on Women, Sex and Sexuality. <i>Oriental Anthropologists</i>
+                    , Vol. 15. doi: 10-1177/0976343020160101.
+                  </h6>
+                  <h6 className="presentation">
+                    Naidu, M. &amp; Darong, G. (2015). Illness and Health as
+                    Constructions: Narratives of Sangoma Nurses.{" "}
+                    <i>Studies in Ethno-Medicine</i>, 9(3), 289-295.
                   </h6>
                   <h6 className="presentation">
                     Naidu, M. (2014). Communicating ‘Self’: Language and Issues
@@ -477,6 +496,11 @@ export default class Publications extends React.Component {
                     <i>International Journal of Social Sciences</i>, 26(1),
                     29-39.
                   </h6>
+                  <h6 className="presentation">
+                    Naidu, M. &amp; Nzuza, N. (2013). Stories of the ‘Call” in a
+                    Pentecostal Church. <i>Journal of Social Sciences</i>,
+                    36(2), 153-163.
+                  </h6>
                 </Col>
               </Row>
             </Tab>
@@ -504,7 +528,8 @@ export default class Publications extends React.Component {
                     , (Ed) Shalina Mehta, India: Kre Publishers, 2010.
                   </h6>
                   <h6 className="presentation">
-                    Revisiting Standpoint Theory through Ethnographic Vignettes in{" "}
+                    Revisiting Standpoint Theory through Ethnographic Vignettes
+                    in{" "}
                     <i>
                       Introduction to Gender Studies in eastern and Southern
                       Africa: A Reader

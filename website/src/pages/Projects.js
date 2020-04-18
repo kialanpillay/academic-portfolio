@@ -43,13 +43,14 @@ export default class Projects extends React.Component {
                 <h5 className="projectYear">2019 - 2021</h5>
                 <p className="projectContent">
                   R9 Million Grant. Principle Investigator (PI) of a three-year
-                  project Project with two other PIs (Prof. Kavilan Moodley -
+                  project Project with co-PIs (Prof. Kavilan Moodley -
                   Astrophysics and Prof. Onisimo Mutanga - Earth Observation).
                   This is an inter-college and interdisciplinary Big Data and
                   Analytics project that comprises a large team of colleagues,
-                  (Computer Science, Information Studies, Statistics, Social
-                  Sciences, Physics, Earth Observation) and includes a large
-                  cohort of Postdoctoral researchers and PhD candidates.
+                  (Computer Science, Information Studies, Pyschology,
+                  Astrophysics, Statistics, Social Sciences, Physics, Earth
+                  Observation) and includes a large cohort of Postdoctoral
+                  researchers and PhD candidates.
                 </p>
                 <p className="projectContent">
                   My sub-project is in Geo-Spatial Humanities and data and
@@ -100,13 +101,13 @@ export default class Projects extends React.Component {
                 </h3>
                 <h5 className="projectYear">2014 - 2020</h5>
                 <p className="projectContent">
-                  Entailed collaboration with colleagues from the following institutions: 
-                  University of Cape Town, University of the Witwatersrand, University of Zimbabwe,
-                  University of Namibia, University of Johannesburg, Eduardo
-                  Mondle Mozambique and University of Botswana. The Project
-                  included my postdoctoral students and doctoral students in a
-                  mentoring bid to build capacity and develop intellectual
-                  skills.
+                  Entailed collaboration with colleagues from the following
+                  institutions: University of Cape Town, University of the
+                  Witwatersrand, University of Zimbabwe, University of Namibia,
+                  University of Johannesburg, Eduardo Mondle Mozambique and
+                  University of Botswana. The Project included my postdoctoral
+                  students and doctoral students in a mentoring bid to build
+                  capacity and develop intellectual skills.
                 </p>
               </Carousel.Item>
               <Carousel.Item
@@ -115,7 +116,11 @@ export default class Projects extends React.Component {
                   alignItems: "center",
                 }}
               >
-                <h1 className="projectTitle"> HIV/AIDS and Women’s Health</h1>
+                <h1 className="projectTitle">
+                  {" "}
+                  HIV/AIDS and Women's Sexual and Reproductive Health Rights
+                  (SRHR)
+                </h1>
                 <h3 className="projectSubtitle">UKZN</h3>
                 <h5 className="projectYear">2012 - 2013</h5>
                 <p className="projectContent">
