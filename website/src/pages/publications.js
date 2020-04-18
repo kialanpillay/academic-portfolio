@@ -202,7 +202,7 @@ export default class Publications extends React.Component {
                     , 29(1), 104-126.
                   </h6>
                   <h6 className="publication">
-                    10. Naidu, M. (2016). "Plastic Migrants" and and Deprived
+                    10. Naidu, M. (2016). "Plastic Migrants" and Deprived
                     Livelihoods: Resettlement &amp; Forced Migration.{" "}
                     <i>Migracijske i etničke teme</i>, 32(2), 221-244.{" "}
                     <a
@@ -348,7 +348,7 @@ export default class Publications extends React.Component {
                   <h6 className="publication">
                     Naidu, M. (2014). Not "Bio-Prospecting" But
                     "Bio-Respecting": Seeing Forests as Culturally Embedded
-                    Spaces.
+                    Spaces.{" "}
                     <a
                       className="pubLink"
                       target="_blank"
@@ -485,7 +485,7 @@ export default class Publications extends React.Component {
                         Art and Humanities in Southern Africa
                       </i>
                     </a>{" "}
-                    ,20(2), 147-163.
+                    , 20(2), 147-163.
                   </h6>
                   <h6 className="publication">
                     Naidu, M. (2012). (Editorial) Mobilities and Transnational
@@ -510,9 +510,9 @@ export default class Publications extends React.Component {
                   </h6>
                   <h6 className="publication">
                     Naidu, M. (2012). Performing Illness and Health: The
-                    Humanistic Value of Cancer Narratives, ASnA,{" "}
+                    Humanistic Value of Cancer Narratives. ASnA,{" "}
                     <i>Journal of Anthropology Association Southern Africa</i>,
-                    35(3/ 4), 71-80.
+                    35(3/4), 71-80.
                     <a
                       className="pubLink"
                       target="_blank"
@@ -547,11 +547,11 @@ export default class Publications extends React.Component {
                         Art and Humanities in Southern Africa
                       </i>
                     </a>{" "}
-                    19(1), 280-305.
+                    , 19(1), 280-305.
                   </h6>
                   <h6 className="publication">
                     Naidu, M. (2012). Transcendent Genealogical &amp; Kinship
-                    Relations: Afterlife in African Traditional Religions,{" "}
+                    Relations: Afterlife in African Traditional Religions.{" "}
                     <a
                       className="pubLink"
                       target="_blank"
@@ -666,7 +666,7 @@ export default class Publications extends React.Component {
                   </h6>
                   <h6 className="publication">
                     Naidu, M. &amp; Shukla, U (2010). Hindu Studies: Studying
-                    the “Past-Present”,{" "}
+                    the “Past-Present”.{" "}
                     <a
                       className="pubLink"
                       target="_blank"
@@ -761,8 +761,8 @@ export default class Publications extends React.Component {
                     , 20, 16-31.
                   </h6>
                   <h6 className="publication">
-                    Naidu, M. (2008). Eco-femin(ism) and hindu(ism) positioning
-                    contemporary eco-ethic conversation.{" "}
+                    Naidu, M. (2008). Eco-femin(ism) and Hindu(ism) Positioning
+                    Contemporary Eco-ethic Conversation.{" "}
                     <a
                       className="pubLink"
                       target="_blank"
@@ -813,7 +813,7 @@ export default class Publications extends React.Component {
                     , 15, 1-13.
                   </h6>
                   <h6 className="publication">
-                    Naidu, M. (1999). Marriage Reaffirming Sacred Space.{" "}
+                    Naidu, M. (1999). Marriage As Reaffirming Sacred Space.{" "}
                     <a
                       className="pubLink"
                       target="_blank"
@@ -827,7 +827,7 @@ export default class Publications extends React.Component {
                   </h6>
                   <h6 className="publication">
                     Naidu, M. (1997). Critical Distance: Some Methodological
-                    Problems Encountered in the Field,{" "}
+                    Problems Encountered in the Field.{" "}
                     <a
                       className="pubLink"
                       target="_blank"
