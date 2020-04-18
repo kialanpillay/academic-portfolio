@@ -55,7 +55,7 @@ export default class Teaching extends React.Component {
                 className="button"
                 variant="warning"
                 size="lg"
-                href="/theses"
+                href="topics"
               >
                 View Details
               </Button>

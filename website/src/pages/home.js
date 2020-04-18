@@ -79,7 +79,7 @@ export default class Home extends React.Component {
                   <Card.Text>Explore my publications and projects.</Card.Text>
                   <Button
                     className="button"
-                    href="/research"
+                    href="research"
                     variant="outline-warning"
                   >
                     Explore
@@ -102,7 +102,7 @@ export default class Home extends React.Component {
                   <Button
                     className="button"
                     variant="outline-warning"
-                    href="/teaching"
+                    href="teaching"
                   >
                     Explore
                   </Button>
@@ -124,7 +124,7 @@ export default class Home extends React.Component {
                   <Button
                     className="button"
                     variant="outline-warning"
-                    href="/awards"
+                    href="awards"
                   >
                     Explore
                   </Button>

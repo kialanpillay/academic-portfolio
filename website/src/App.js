@@ -52,7 +52,7 @@ export default class App extends React.Component {
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Link className="link" to="/theses">
+                    <Link className="link" to="/topics">
                       Supervision
                     </Link>
                   </NavDropdown.Item>
@@ -106,7 +106,7 @@ export default class App extends React.Component {
               <Route path="/teaching">
                 <Teaching />
               </Route>
-              <Route path="/theses">
+              <Route path="/topics">
                 <Topics />
               </Route>
               <Route path="/awards">
