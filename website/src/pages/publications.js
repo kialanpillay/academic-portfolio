@@ -1001,7 +1001,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://scholar.google.co.za/scholar?hl=en&as_sdt=0%2C5&as_vis=1&q=.+Revisiting+Standpoint+through+Ethnographic+Vignettes+in+Introduction+to+Gender+Studies+in+eastern+and+Southern+Africa%3A+A+&btnG="
                     >
-                      DOI: 10.1007/978-94-6300-558-6
+                      {" "}DOI: 10.1007/978-94-6300-558-6
                     </a>
                   </h6>
 
