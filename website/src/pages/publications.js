@@ -261,7 +261,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://journals.sagepub.com/doi/abs/10.1177/0976343020170202?journalCode=oana"
                     >
-                      {" "}DOI: 10-1177/0976343020170202
+                      {" "}
+                      DOI: 10-1177/0976343020170202
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -273,7 +274,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09718923.2015.11893503"
                     >
-                      {" "}DOI: 10.1080/09718923.2015.11893503{" "}
+                      {" "}
+                      DOI: 10.1080/09718923.2015.11893503{" "}
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -286,7 +288,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09718923.2015.11893491"
                     >
-                      {" "}DOI: 10.1080/09718923.2015.11893491
+                      {" "}
+                      DOI: 10.1080/09718923.2015.11893491
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -299,7 +302,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://journals.sagepub.com/doi/10.1177/0976343020160113"
                     >
-                      {" "}DOI: 10.1177/0976343020160113
+                      {" "}
+                      DOI: 10.1177/0976343020160113
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -311,7 +315,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://journals.sagepub.com/doi/10.1177/0038022920140103"
                     >
-                      {" "}DOI: 10.1177/0038022920140103
+                      {" "}
+                      DOI: 10.1177/0038022920140103
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -323,7 +328,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09720073.2014.11891442"
                     >
-                      {" "}DOI: 10.1080/09720073.2014.11891442
+                      {" "}
+                      DOI: 10.1080/09720073.2014.11891442
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -335,12 +341,13 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09718923.2014.11893265"
                     >
-                      {" "}DOI: 10.1080/09718923.2014.11893265
+                      {" "}
+                      DOI: 10.1080/09718923.2014.11893265
                     </a>
                   </h6>
                   <h6 className="publication">
-                    Naidu, M. (2014). Not ‘Bio-Prospecting’ But
-                    ‘Bio-Respecting’: Seeing Forests as Culturally Embedded
+                    Naidu, M. (2014). Not "Bio-Prospecting" But
+                    "Bio-Respecting": Seeing Forests as Culturally Embedded
                     Spaces.
                     <a
                       className="pubLink"
@@ -359,7 +366,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://journals.sagepub.com/doi/abs/10.1177/0971523114559874?casa_token=qK19KKKTs2gAAAAA:dwq9DCCjSougBI5mfNy4BUrVx3J7fwnLwehlDXwe4yXB0t7IGb_dcr-IyCFQO6xDgzwEisKShlooPQ"
                     >
-                      {" "}DOI: 10.1177/0971523114559874
+                      {" "}
+                      DOI: 10.1177/0971523114559874
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -378,8 +386,8 @@ export default class Publications extends React.Component {
                     , 10, 200-220.
                   </h6>
                   <h6 className="publication">
-                    Naidu, M. (2013). African Religion and Ethics: Ethical Non
-                    dualism.{" "}
+                    Naidu, M. (2013). African Religion and Ethics: The Notion of
+                    Ethical Non-dualism.{" "}
                     <a
                       className="pubLink"
                       target="_blank"
@@ -398,7 +406,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/10130950.2013.793898?journalCode=ragn203"
                     >
-                      {" "}DOI: 10.1080/10130950.2013.793898
+                      {" "}
+                      DOI: 10.1080/10130950.2013.793898
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -411,7 +420,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/full/10.1080/10130950.2013.793898?casa_token=OzxSNr5wl3oAAAAA%3Abr-lr0-vgqIc_IdZ5epn8xQXaulCaZzd7VksqT-Wc3MRnlVajdh-ebxtJscb2Cm_ZAu3hw94dAf4Jg"
                     >
-                      {" "}DOI: 10.1080/10130950.2013.793898
+                      {" "}
+                      DOI: 10.1080/10130950.2013.793898
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -458,7 +468,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://journals.sagepub.com/doi/abs/10.1177/0976343020130104"
                     >
-                      {" "}DOI: 10.1177/0976343020130104
+                      {" "}
+                      DOI: 10.1177/0976343020130104
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -507,7 +518,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://journals.sagepub.com/doi/abs/10.1177/0976343020130104"
                     >
-                      {" "}DOI: 10.1080/23323256.2012.11500026
+                      {" "}
+                      DOI: 10.1080/23323256.2012.11500026
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -558,7 +570,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://journals.sagepub.com/doi/abs/10.1177/0976343020110205?journalCode=oana"
                     >
-                      {" "}DOI: 10.1177/0976343020110205
+                      {" "}
+                      DOI: 10.1177/0976343020110205
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -571,7 +584,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/10130950.2011.575587"
                     >
-                      {" "}DOI: 10.1080/10130950.2011.575587
+                      {" "}
+                      DOI: 10.1080/10130950.2011.575587
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -607,7 +621,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09718923.2011.11892879"
                     >
-                      {" "}DOI: 10.1080/09718923.2011.11892879
+                      {" "}
+                      DOI: 10.1080/09718923.2011.11892879
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -709,7 +724,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/23323256.2009.11499987?casa_token=y1K-5e5e5e8AAAAA:UcwYCaHyGqd7Iey_syAy20JIhZ37S4KgndQOBeXOgPBarMzBDfX_Cr68XqEXoJzobIq6vXQE42xRjw"
                     >
-                      {" "}DOI: 10.1080/23323256.2009.11499987
+                      {" "}
+                      DOI: 10.1080/23323256.2009.11499987
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -862,7 +878,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://journals.sagepub.com/doi/abs/10.1177/0976343020160101?journalCode=oana"
                     >
-                      {" "}DOI: 10-1177/0976343020160101
+                      {" "}
+                      DOI: 10-1177/0976343020160101
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -874,7 +891,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09735070.2015.11905446"
                     >
-                      {" "}DOI: 10.1080/09735070.2015.11905446
+                      {" "}
+                      DOI: 10.1080/09735070.2015.11905446
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -899,7 +917,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09751122.2014.11890157"
                     >
-                      {" "}DOI: 10.1080/09751122.2014.11890157
+                      {" "}
+                      DOI: 10.1080/09751122.2014.11890157
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -911,7 +930,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09751122.2014.11890197"
                     >
-                      {" "}DOI: 10.1080/09751122.2014.11890197
+                      {" "}
+                      DOI: 10.1080/09751122.2014.11890197
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -924,7 +944,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09735070.2015.11905446"
                     >
-                      {" "}DOI: 10.1080/09766634.2013.11885596
+                      {" "}
+                      DOI: 10.1080/09766634.2013.11885596
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -936,7 +957,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://d.docs.live.net/72e063d1ed2b7e15/Desktop/doi.org/10.1080/09709274.2013.11906611"
                     >
-                      {" "}DOI: 10.1080/09709274.2013.11906611
+                      {" "}
+                      DOI: 10.1080/09709274.2013.11906611
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -948,7 +970,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09718923.2013.11893184"
                     >
-                      {" "}DOI: 10.1080/09718923.2013.11893184
+                      {" "}
+                      DOI: 10.1080/09718923.2013.11893184
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -962,7 +985,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09718923.2011.11892879"
                     >
-                      {" "}DOI: 10.1080/09718923.2011.11892879
+                      {" "}
+                      DOI: 10.1080/09718923.2011.11892879
                     </a>
                   </h6>
                 </Col>
