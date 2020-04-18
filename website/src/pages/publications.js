@@ -43,18 +43,16 @@ export default class Publications extends React.Component {
               </h1>
             </Col>
             <Toast
-                  show={this.state.tooltip}
-                  onClose={() =>
-                    this.setState({ tooltip: !this.state.tooltip })
-                  }
-                >
-                  <Toast.Header>
-                    <strong className="mr-auto">Tip</strong>
-                  </Toast.Header>
-                  <Toast.Body style={{ color: "#282c34", fontSize: "0.6rem" }}>
-                    Hover over the DOI or Journal to visit the publication.
-                  </Toast.Body>
-                </Toast>
+              show={this.state.tooltip}
+              onClose={() => this.setState({ tooltip: !this.state.tooltip })}
+            >
+              <Toast.Header>
+                <strong className="mr-auto">Tip</strong>
+              </Toast.Header>
+              <Toast.Body style={{ color: "#282c34", fontSize: "0.6rem" }}>
+                Hover over the DOI or Journal to visit the publication.
+              </Toast.Body>
+            </Toast>
           </Row>
           <Tabs activeKey={this.state.key} onSelect={(k) => this.setKey(k)}>
             <Tab
@@ -72,7 +70,6 @@ export default class Publications extends React.Component {
                 <Col md="auto">
                   <h1 className="largeText">Peer-Reviewed Journal Articles</h1>
                 </Col>
-   
               </Row>
               <Row>
                 <Col md="auto" style={{ marginRight: "0rem" }}>
@@ -207,7 +204,7 @@ export default class Publications extends React.Component {
                   <h6 className="publication">
                     10. Naidu, M. (2016). "Plastic Migrants" and and Deprived
                     Livelihoods: Resettlement &amp; Forced Migration.{" "}
-                    <i>Migracijske i etničke teme</i>, 32(2), 221-244.
+                    <i>Migracijske i etničke teme</i>, 32(2), 221-244.{" "}
                     <a
                       className="pubLink"
                       target="_blank"
@@ -237,13 +234,14 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/10130950.2015.1048935"
                     >
+                      {" "}
                       DOI: 10.1080/10130950.2015.1048935
                     </a>
                   </h6>
                   <h6 className="publication">
                     Naidu, M. &amp; Darong G. (2015). When Illness is more than
                     a Sick Body: Probing How IsiZulu-Speaking Nurses Construct
-                    Illnesses and Healing,
+                    Illnesses and Healing.{" "}
                     <a
                       className="pubLink"
                       target="_blank"
@@ -263,7 +261,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://journals.sagepub.com/doi/abs/10.1177/0976343020170202?journalCode=oana"
                     >
-                      DOI: 10-1177/0976343020170202
+                      {" "}DOI: 10-1177/0976343020170202
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -275,7 +273,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09718923.2015.11893503"
                     >
-                      DOI: 10.1080/09718923.2015.11893503{" "}
+                      {" "}DOI: 10.1080/09718923.2015.11893503{" "}
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -288,7 +286,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09718923.2015.11893491"
                     >
-                      DOI: 10.1080/09718923.2015.11893491
+                      {" "}DOI: 10.1080/09718923.2015.11893491
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -301,7 +299,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://journals.sagepub.com/doi/10.1177/0976343020160113"
                     >
-                      DOI: 10.1177/0976343020160113
+                      {" "}DOI: 10.1177/0976343020160113
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -313,7 +311,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://journals.sagepub.com/doi/10.1177/0038022920140103"
                     >
-                      DOI: 10.1177/0038022920140103
+                      {" "}DOI: 10.1177/0038022920140103
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -325,7 +323,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09720073.2014.11891442"
                     >
-                      DOI: 10.1080/09720073.2014.11891442
+                      {" "}DOI: 10.1080/09720073.2014.11891442
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -337,7 +335,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09718923.2014.11893265"
                     >
-                      DOI: 10.1080/09718923.2014.11893265
+                      {" "}DOI: 10.1080/09718923.2014.11893265
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -361,7 +359,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://journals.sagepub.com/doi/abs/10.1177/0971523114559874?casa_token=qK19KKKTs2gAAAAA:dwq9DCCjSougBI5mfNy4BUrVx3J7fwnLwehlDXwe4yXB0t7IGb_dcr-IyCFQO6xDgzwEisKShlooPQ"
                     >
-                      DOI: 10.1177/0971523114559874
+                      {" "}DOI: 10.1177/0971523114559874
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -400,7 +398,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/10130950.2013.793898?journalCode=ragn203"
                     >
-                      DOI: 10.1080/10130950.2013.793898
+                      {" "}DOI: 10.1080/10130950.2013.793898
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -413,7 +411,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/full/10.1080/10130950.2013.793898?casa_token=OzxSNr5wl3oAAAAA%3Abr-lr0-vgqIc_IdZ5epn8xQXaulCaZzd7VksqT-Wc3MRnlVajdh-ebxtJscb2Cm_ZAu3hw94dAf4Jg"
                     >
-                      DOI: 10.1080/10130950.2013.793898
+                      {" "}DOI: 10.1080/10130950.2013.793898
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -460,7 +458,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://journals.sagepub.com/doi/abs/10.1177/0976343020130104"
                     >
-                      DOI: 10.1177/0976343020130104
+                      {" "}DOI: 10.1177/0976343020130104
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -509,7 +507,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://journals.sagepub.com/doi/abs/10.1177/0976343020130104"
                     >
-                      DOI: 10.1080/23323256.2012.11500026
+                      {" "}DOI: 10.1080/23323256.2012.11500026
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -560,7 +558,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://journals.sagepub.com/doi/abs/10.1177/0976343020110205?journalCode=oana"
                     >
-                      DOI: 10.1177/0976343020110205
+                      {" "}DOI: 10.1177/0976343020110205
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -573,7 +571,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/10130950.2011.575587"
                     >
-                      DOI: 10.1080/10130950.2011.575587
+                      {" "}DOI: 10.1080/10130950.2011.575587
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -609,7 +607,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09718923.2011.11892879"
                     >
-                      DOI: 10.1080/09718923.2011.11892879
+                      {" "}DOI: 10.1080/09718923.2011.11892879
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -711,7 +709,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/23323256.2009.11499987?casa_token=y1K-5e5e5e8AAAAA:UcwYCaHyGqd7Iey_syAy20JIhZ37S4KgndQOBeXOgPBarMzBDfX_Cr68XqEXoJzobIq6vXQE42xRjw"
                     >
-                      DOI: 10.1080/23323256.2009.11499987
+                      {" "}DOI: 10.1080/23323256.2009.11499987
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -747,8 +745,8 @@ export default class Publications extends React.Component {
                     , 20, 16-31.
                   </h6>
                   <h6 className="publication">
-                    Naidu, M. (2008). Eco-femin(ism) and
-                    Hindu(ism)...Eco-Compassion.{" "}
+                    Naidu, M. (2008). Eco-femin(ism) and hindu(ism) positioning
+                    contemporary eco-ethic conversation.{" "}
                     <a
                       className="pubLink"
                       target="_blank"
@@ -805,9 +803,10 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://journals.co.za/content/nidan/11/12/AJA10165320_141"
                     >
-                    <i>
-                      Nidan: International Journal for the Study of Hinduism
-                    </i></a>
+                      <i>
+                        Nidan: International Journal for the Study of Hinduism
+                      </i>
+                    </a>
                     , 11, 52-76.
                   </h6>
                   <h6 className="publication">
@@ -818,8 +817,11 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.jstor.org/stable/44945329?casa_token=24-R49PuUeQAAAAA:OgbvKmQcJYq3qvuXH5pcABDcjY0aAEVdy_qlYUofxTwVQqhmmzVyE3FK9sbJSRjUXoYUBAEPR8DzSh-6VywXzxbDnM-_XoML6-FqXPtYMXYfn_gpSdKU&seq=1#metadata_info_tab_contents"
                     >
-                    <i>Journal for the Study of Religion in Southern Africa</i></a>,
-                    10(1), 19-39.
+                      <i>
+                        Journal for the Study of Religion in Southern Africa
+                      </i>
+                    </a>
+                    , 10(1), 19-39.
                   </h6>
                 </Col>
               </Row>
@@ -860,7 +862,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://journals.sagepub.com/doi/abs/10.1177/0976343020160101?journalCode=oana"
                     >
-                      DOI: 10-1177/0976343020160101
+                      {" "}DOI: 10-1177/0976343020160101
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -872,7 +874,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09735070.2015.11905446"
                     >
-                      DOI: 10.1080/09735070.2015.11905446
+                      {" "}DOI: 10.1080/09735070.2015.11905446
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -883,7 +885,9 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://scholar.google.co.za/scholar?hl=en&as_sdt=0%2C5&as_vis=1&q=Communicating+%E2%80%98Self%E2%80%99%3A+Language+and+Issues+of+Belonging.&btnG="
                     >
-                    <i>Journal of Communication</i></a>, 5(1), 23-34.
+                      <i>Journal of Communication</i>
+                    </a>
+                    , 5(1), 23-34.
                   </h6>
 
                   <h6 className="publication">
@@ -895,7 +899,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09751122.2014.11890157"
                     >
-                      DOI: 10.1080/09751122.2014.11890157
+                      {" "}DOI: 10.1080/09751122.2014.11890157
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -907,7 +911,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09751122.2014.11890197"
                     >
-                      DOI: 10.1080/09751122.2014.11890197
+                      {" "}DOI: 10.1080/09751122.2014.11890197
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -920,7 +924,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09735070.2015.11905446"
                     >
-                      DOI: 10.1080/09766634.2013.11885596
+                      {" "}DOI: 10.1080/09766634.2013.11885596
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -932,7 +936,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://d.docs.live.net/72e063d1ed2b7e15/Desktop/doi.org/10.1080/09709274.2013.11906611"
                     >
-                      DOI: 10.1080/09709274.2013.11906611
+                      {" "}DOI: 10.1080/09709274.2013.11906611
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -944,7 +948,7 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09718923.2013.11893184"
                     >
-                      DOI: 10.1080/09718923.2013.11893184
+                      {" "}DOI: 10.1080/09718923.2013.11893184
                     </a>
                   </h6>
                   <h6 className="publication">
@@ -958,10 +962,9 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://www.tandfonline.com/doi/abs/10.1080/09718923.2011.11892879"
                     >
-                      DOI: 10.1080/09718923.2011.11892879
+                      {" "}DOI: 10.1080/09718923.2011.11892879
                     </a>
                   </h6>
-               
                 </Col>
               </Row>
             </Tab>
@@ -1001,7 +1004,8 @@ export default class Publications extends React.Component {
                       target="_blank"
                       href="https://scholar.google.co.za/scholar?hl=en&as_sdt=0%2C5&as_vis=1&q=.+Revisiting+Standpoint+through+Ethnographic+Vignettes+in+Introduction+to+Gender+Studies+in+eastern+and+Southern+Africa%3A+A+&btnG="
                     >
-                      {" "}DOI: 10.1007/978-94-6300-558-6
+                      {" "}
+                      DOI: 10.1007/978-94-6300-558-6
                     </a>
                   </h6>
 
