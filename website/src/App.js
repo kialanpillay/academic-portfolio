@@ -76,9 +76,9 @@ export default class App extends React.Component {
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
-            <Navbar.Brand id="brand" href="/">
+            {/*<Navbar.Brand id="brand" href="/">
               UKZN
-            </Navbar.Brand>
+    </Navbar.Brand>*/}
             <Navbar.Brand href="https://www.ukzn.ac.za/">
               <img
                 src={image}
