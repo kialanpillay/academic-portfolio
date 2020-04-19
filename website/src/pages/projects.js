@@ -64,6 +64,7 @@ export default class Projects extends React.Component {
                   <a
                     style={{
                       fontSize: "1.2rem",
+                      fontWeight: "600",
                     }}
                     className="link"
                     target="_blank"
@@ -77,6 +78,7 @@ export default class Projects extends React.Component {
                   <a
                     style={{
                       fontSize: "1.2rem",
+                      fontWeight: "600",
                     }}
                     className="link"
                     target="_blank"
@@ -115,6 +117,7 @@ export default class Projects extends React.Component {
                   <a
                     style={{
                       fontSize: "1.2rem",
+                      fontWeight: "600",
                     }}
                     className="link"
                     target="_blank"
@@ -150,6 +153,7 @@ export default class Projects extends React.Component {
                   <a
                     style={{
                       fontSize: "1.2rem",
+                      fontWeight: "600",
                     }}
                     className="link"
                     target="_blank"
@@ -162,6 +166,7 @@ export default class Projects extends React.Component {
                   <a
                     style={{
                       fontSize: "1.2rem",
+                      fontWeight: "600",
                     }}
                     className="link"
                     target="_blank"
