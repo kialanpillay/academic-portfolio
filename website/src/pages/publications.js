@@ -92,7 +92,7 @@ export default class Publications extends React.Component {
                     Peacebuilding Interventions in the Democratic Republic of
                     Congo: Insights from the Congolese Refugees in Johannesburg,
                     Cape Town and Durban. <br />
-                    <i>Journal of African Foreigners Affairs</i>. 6(1), 65-84.{" "}
+                    <i>Journal of African Foreigners Affairs</i>, 6(1), 65-84.{" "}
                     <a
                       className="pubLink"
                       target="_blank"
@@ -112,7 +112,7 @@ export default class Publications extends React.Component {
                     Mutambara, V. &amp; Naidu, M. (2019). The Human Security
                     Implications of Migration on Zimbabwean Migrant Women in
                     South Africa. <br />
-                    <i>African Human Mobility Review</i>. 5(3) 174-179.
+                    <i>African Human Mobility Review</i>, 5(3) 174-179.
                   </h6>
                   <h6 className="publication">
                     Naidu, M. &amp; Benhura, AR. (2018). Humanitarianism in
@@ -175,7 +175,7 @@ export default class Publications extends React.Component {
                     Heteronormative in Higher Education Spaces. <br />
                     <i>
                       South African Journal of Higher Education
-                    </i>,Vol.31.{" "}
+                    </i>, Vol.31.{" "}
                     <a
                       className="pubLink"
                       target="_blank"
@@ -189,7 +189,7 @@ export default class Publications extends React.Component {
                     Naidu, M. (2017). When My Body is in the Way: Body Mapping
                     &amp; Positionality. <br />
                     <i>Agenda: Empowering Women for Gender Equity</i>,
-                    32(2),106-112.{" "}
+                    32(2), 106-112.{" "}
                     <a
                       className="pubLink"
                       target="_blank"
@@ -523,7 +523,7 @@ export default class Publications extends React.Component {
                       AlterNation: Interdisciplinary Journal for the Study of
                       Art and Humanities in Southern Africa
                     </i>
-                    , 191, 1-6
+                    , 191, 1-6.
                   </h6>
                   <h6 className="publication">
                     Naidu, M. (2012). Belief and Bereavement: Attachment and the
@@ -536,7 +536,7 @@ export default class Publications extends React.Component {
                       <br />
                       <i>Journal for Study of Religion</i>
                     </a>
-                    , 25 (2), 71-87.
+                    , 25(2), 71-87.
                   </h6>
                   <h6 className="publication">
                     Naidu, M. (2012). Performing Illness and Health: The
@@ -698,7 +698,7 @@ export default class Publications extends React.Component {
                         Nidan: International Journal for the Study of Hinduism
                       </i>
                     </a>
-                    , 22 (1), 96-112.
+                    , 22(1), 96-112.
                   </h6>
                   <h6 className="publication">
                     Naidu, M. &amp; Shukla, U (2010). Hindu Studies: Studying
@@ -754,7 +754,7 @@ export default class Publications extends React.Component {
                     Naidu, M. (2009). Glaring Invisibility: Dressing the Body of
                     the Female Cleaner.{" "}
                     <br/><i>Journal of Anthropology Association Southern Africa</i>,
-                    32(3-4), 128-138.
+                    32(3/4), 128-138.
                     <a
                       className="pubLink"
                       target="_blank"
