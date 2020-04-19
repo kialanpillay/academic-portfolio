@@ -1049,7 +1049,7 @@ export default class Publications extends React.Component {
                     <i>
                       Anthropology Today: Contemporary Trends in Anthropology.
                     </i>
-                    <br/>(Ed) Shalina Mehta, India: Kre Publishers, 2010.
+                    <br/>(Ed) Shalina Mehta. India: Kre Publishers, 2010.
                   </h6>
                   <h6 className="publication">
                     Revisiting Standpoint Theory through Situated Ethnographic
