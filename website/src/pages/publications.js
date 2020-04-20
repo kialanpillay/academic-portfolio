@@ -408,7 +408,7 @@ export default class Publications extends React.Component {
                     , 10, 200-220.
                   </h6>
                   <h6 className="publication">
-                    Naidu, M. (2013). African Religion and Ethics: The Notion of
+                    Naidu, M. (2013). African Religion and Ethics: The Notion of a
                     Ethical Non-dualism.{" "}
                     <a
                       className="pubLink"
@@ -621,7 +621,7 @@ export default class Publications extends React.Component {
                     </a>
                   </h6>
                   <h6 className="publication">
-                    Naidu, M (2011). Gendered Religion: Auto-ethnography as
+                    Naidu, M (2011). Gendered Religion: Auto-ethnography as a
                     Methodological Tool in Religion Studies,{" "}
                     <a
                       className="pubLink"
@@ -686,7 +686,7 @@ export default class Publications extends React.Component {
                     , 83(2), 24-35.
                   </h6>
                   <h6 className="publication">
-                    Naidu, M. &amp; Ojong V. (2010). The "Re Production" of
+                    Naidu, M. &amp; Ojong V. (2010). The "Re-Production" of
                     "Woman" and Mothering: Women in Hindu and Christian
                     Religio-Cultural Traditions.{" "}
                     <a
@@ -798,7 +798,7 @@ export default class Publications extends React.Component {
                   </h6>
                   <h6 className="publication">
                     Naidu, M. (2008). Eco-femin(ism) and Hindu(ism) Positioning
-                    Contemporary Eco-ethic Conversation.{" "}
+                    a Contemporary Eco-ethic Conversation.{" "}
                     <a
                       className="pubLink"
                       target="_blank"
@@ -838,7 +838,7 @@ export default class Publications extends React.Component {
                   </h6>
                   <h6 className="publication">
                     Naidu, M. (2005). Religious Belonging and Identity among
-                    South African Hindu Women. <i>Journal of Dharma</i>.
+                    South African Hindu Women. <i>Journal of Dharma</i>, 30(2).
                   </h6>
                   <h6 className="publication">
                     Naidu, M. (2003). Business Suits and Priests: The Politics

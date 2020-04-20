@@ -166,6 +166,7 @@ export default class Awards extends React.Component {
                   <h1 className="smallText">2012</h1>
                   <h1 className="smallText">2011</h1>
                   <h1 className="smallText">2010</h1>
+                  <h1 className="smallText">2010</h1>
                   <h1 className="smallText">2008</h1>
                 </Col>
                 <Col
@@ -190,6 +191,7 @@ export default class Awards extends React.Component {
                     College Excellence Award for Top Emerging Researcher
                   </h1>
                   <h1 className="award">Top 30 Researcher Award</h1>
+                  <h1 className="award">Top Published Female Researcher Award</h1>
                   <h1 className="award">Top 10 Researcher Award</h1>
                   <h1 className="award">Top 30 Researcher Award</h1>
                 </Col>

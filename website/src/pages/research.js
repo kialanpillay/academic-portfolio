@@ -92,7 +92,7 @@ export default class Research extends React.Component {
                       borderRadius: "5px",
                     }}
                   />
-                  <h3 className="projectSubtitle">Mellon Foundation</h3>
+                  <h3 className="projectSubtitle">The Andrew W. Mellon Foundation</h3>
                   <a className="funderLink" href={"https://mellon.org"} target="_blank">
                     <h4>Project Funder</h4>
                   </a>
