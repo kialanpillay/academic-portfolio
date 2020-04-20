@@ -38,7 +38,7 @@ export default class Projects extends React.Component {
                   alignItems: "center",
                 }}
               >
-                <h1 className="projectTitle">Big Data Flagship Project</h1>
+                <h1 className="projectTitle">Big Data for Science and Society Flagship Project</h1>
                 <h3 className="projectSubtitle">UKZN</h3>
                 <h5 className="projectYear">2019 - 2021</h5>
                 <p className="projectContent">

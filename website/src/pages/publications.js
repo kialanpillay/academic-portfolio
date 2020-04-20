@@ -107,6 +107,14 @@ export default class Publications extends React.Component {
                     (quality) education during displacement: Critiquing the
                     impact of forced migration on access to education. <br />
                     <i>Migration Studies</i>.{" "}
+                    <a
+                      className="pubLink"
+                      target="_blank"
+                      href="https://doi.org/10.31920/2056-5658/2019/v6n1a4"
+                    >
+                      <br />
+                      DOI: 10.1093/migration/mnz021
+                    </a>
                   </h6>
                   <h6 className="publication">
                     Mutambara, V. &amp; Naidu, M. (2019). The Human Security
