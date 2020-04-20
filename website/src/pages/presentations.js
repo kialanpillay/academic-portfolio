@@ -96,15 +96,27 @@ export default class Presentations extends React.Component {
                 </a>
               </h6>
               <h6 className="presentation">
-                Lecture: Queering or Querying: Theory and Activism around LBGTI
-                Issues in SA
+                <a
+                  className="link"
+                  target="_blank"
+                  href="https://www.ukzn.ac.za/news/academic-invited-to-deliver-public-lecture-at-syracuse-university-florence-italy"
+                >
+                  Lecture: Queering or Querying: Theory and Activism around
+                  LBGTI Issues in SA
+                </a>
               </h6>
               <h6 className="presentation">
                 Research Seminar: Mobility and Foreign Students in Higher
                 Education
               </h6>
               <h6 className="presentation">
-                Keynote Address: Mobility Pathways of Foreign African Students
+                <a
+                  className="link"
+                  target="_blank"
+                  href="http://ndabaonline.ukzn.ac.za/UkzndabaStory/NdabaOnline-Vol2-Issue9/Academic%20Gives%20Keynote%20Address%20at%20Higher%20Education%20Research%20Conference/"
+                >
+                  Keynote Address: Mobility Pathways of Foreign African Students
+                </a>
               </h6>
               <h6 className="presentation">
                 <a
@@ -117,13 +129,7 @@ export default class Presentations extends React.Component {
                 </a>
               </h6>
               <h6 className="presentation">
-                <a
-                  className="link"
-                  target="_blank"
-                  href="https://www.ukzn.ac.za/news/academic-invited-to-deliver-public-lecture-at-syracuse-university-florence-italy"
-                >
-                  Keynote Address: Women’s Empowerment and Traditional Masculine
-                </a>
+                Keynote Address: Women’s Empowerment and Traditional Masculine
               </h6>
             </Col>
             <Col md="auto">

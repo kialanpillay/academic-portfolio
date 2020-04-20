@@ -38,7 +38,20 @@ export default class Projects extends React.Component {
                   alignItems: "center",
                 }}
               >
-                <h1 className="projectTitle">Big Data for Science and Society Flagship Project</h1>
+                <a
+                  style={{
+                    textDecoration: "none",
+                    color: "#282c34",
+                  }}
+                  className="link"
+                  target="_blank"
+                  href="http://ndabaonline.ukzn.ac.za/UkzndabaStory/Vol7-Issue5/UKZN%20Invests%20in%20Innovative%20Big%20Data%20Research%20to%20Boost%20Flagship%20Project/"
+                >
+                  <h1 className="projectTitle">
+                    Big Data for Science and Society Flagship Project
+                  </h1>
+                </a>
+
                 <h3 className="projectSubtitle">UKZN</h3>
                 <h5 className="projectYear">2019 - 2021</h5>
                 <p className="projectContent">
@@ -74,7 +87,6 @@ export default class Projects extends React.Component {
                   </a>
                 </p>
                 <p>
-                  {" "}
                   <a
                     style={{
                       fontSize: "1.2rem",
