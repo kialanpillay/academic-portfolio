@@ -62,6 +62,15 @@ export default class Presentations extends React.Component {
                 <a
                   className="link"
                   target="_blank"
+                  href="https://www.tandfonline.com/doi/abs/10.1080/13032917.2018.1550662?src=recsys&journalCode=rana20"
+                >
+                  Public Seminar: Ethics around Scholar Publishing
+                </a>
+              </h6>
+              <h6 className="presentation">
+                <a
+                  className="link"
+                  target="_blank"
                   href="http://ndaba-online.ukzn.ac.za/UkzndabaStory/1177/anthropology-professor-presents-teaching-seminar-in-switzerland/#sthash.z0csnJzu.dpbs"
                 >
                   Presentation: Faith and Experiences of Lesbian Women in Church
@@ -119,22 +128,25 @@ export default class Presentations extends React.Component {
                 </a>
               </h6>
               <h6 className="presentation">
+                Public Seminar: Doing Ethnographic Work in the Context of
+                Tourism Studies
+              </h6>
+              <h6 className="presentation">
                 <a
                   className="link"
                   target="_blank"
-                  href="https://www.tandfonline.com/doi/abs/10.1080/13032917.2018.1550662?src=recsys&journalCode=rana20"
+                  href="http://enewsletter.ukzn.ac.za/Story.aspx?id=116&storyid=1505"
                 >
-                  Public Seminar: Doing Ethnographic Work in the Context of
-                  Tourism Studies
+                  Keynote Address: Women’s Empowerment and Traditional Masculine
                 </a>
-              </h6>
-              <h6 className="presentation">
-                Keynote Address: Women’s Empowerment and Traditional Masculine
               </h6>
             </Col>
             <Col md="auto">
               <h6 className="location">
                 American University at Rome, Italy (2018)
+              </h6>
+              <h6 className="location">
+                Interdisciplinary Tourism Conference, Tourkey (2018)
               </h6>
               <h6 className="location">
                 Graduate Institute, Gender Centre, Switzerland (2017)

@@ -160,6 +160,7 @@ html {
 
 .link {
   color: #282c34;
+  display: inline;
 }
 .link:hover {
   color: #f6c444;

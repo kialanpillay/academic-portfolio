@@ -53,11 +53,10 @@ export default class Editorial extends React.Component {
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
                   <i>
-                    AlterNation: Interdisciplinary Journal for the Study of Arts
-                    and Humanities in Southern Africa{" "}
+                    Anthropology Southern Africa
                   </i>
                 </h4>
-                <h4 className="vertical-timeline-element-subtitle">2015 - Present"</h4>
+                <h4 className="vertical-timeline-element-subtitle">2014 - Present"</h4>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -76,10 +75,11 @@ export default class Editorial extends React.Component {
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
                   <i>
-                    Anthropology Southern Africa
+                    AlterNation: Interdisciplinary Journal for the Study of Arts
+                    and Humanities in Southern Africa{" "}
                   </i>
                 </h4>
-                <h4 className="vertical-timeline-element-subtitle">2014 - Present"</h4>
+                <h4 className="vertical-timeline-element-subtitle">2015 - Present"</h4>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"

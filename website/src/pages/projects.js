@@ -48,6 +48,52 @@ export default class Projects extends React.Component {
                   href="http://ndabaonline.ukzn.ac.za/UkzndabaStory/Vol7-Issue5/UKZN%20Invests%20in%20Innovative%20Big%20Data%20Research%20to%20Boost%20Flagship%20Project/"
                 >
                   <h1 className="projectTitle">
+                    African Cities Flagship Project
+                  </h1>
+                </a>
+
+                <h3 className="projectSubtitle">UKZN</h3>
+                <h5 className="projectYear">2020 - 2021</h5>
+                <p className="projectContent">
+                  R5.9 Million Grant. building Well-being, sOcial cOhesion, and
+                  Dignity by restoring environmental RIGHTS (WOODRIGHTS). PI
+                  along with Prof. A Modi, Prof. R Slotow, Prof C. Downs, Prof
+                  C. Buckley, Dr. K Sutherland and Prof. T Mabhaudhi. The
+                  project takes a transdisciplinary approach and brings together
+                  academics from disciplines of Biodiversity, Crop Science,
+                  Plant Sciences, Environmental Science, Sustainability Science,
+                  Hydrology, GIS and Remote Sensing, Law, Social Sciences,
+                  Development Studies, and partners from government (eThekwini
+                  Municipality, KZN COGTA, KZN EDTEA) and civil society
+                  (Institute for Natural Resources, BOARDA South Africa, Kanyisa
+                  Projects, Duzi uMngeni Conservation Trust).
+                </p>
+                <p className="projectContent">
+                  The project is concerned with ecosystem restoration and
+                  contribution towards the reversal of ecosystem degradation.
+                  The aim is to improve natural capital, enhance community
+                  livelihoods and social cohesion, and reduce risks to people
+                  and infrastructure, including disaster risk mitigation, while
+                  boosting the services that natural ecosystems provide to
+                  society.
+                </p>
+              </Carousel.Item>
+              <Carousel.Item
+                style={{
+                  marginTop: "3rem",
+                  alignItems: "center",
+                }}
+              >
+                <a
+                  style={{
+                    textDecoration: "none",
+                    color: "#282c34",
+                  }}
+                  className="link"
+                  target="_blank"
+                  href="http://ndabaonline.ukzn.ac.za/UkzndabaStory/Vol7-Issue5/UKZN%20Invests%20in%20Innovative%20Big%20Data%20Research%20to%20Boost%20Flagship%20Project/"
+                >
+                  <h1 className="projectTitle">
                     Big Data for Science and Society Flagship Project
                   </h1>
                 </a>
@@ -78,6 +124,7 @@ export default class Projects extends React.Component {
                     style={{
                       fontSize: "1.2rem",
                       fontWeight: "600",
+                      marginRight: "2rem",
                     }}
                     className="link"
                     target="_blank"
@@ -85,8 +132,19 @@ export default class Projects extends React.Component {
                   >
                     Feature Article 1
                   </a>
-                </p>
-                <p>
+                  <a
+                    style={{
+                      fontSize: "1.2rem",
+                      fontWeight: "600",
+                      marginRight: "2rem",
+                    }}
+                    className="link"
+                    target="_blank"
+                    href="https://quantum.ukzn.ac.za/news/big-data-for-science-and-society-flagships-project-workshop-promotes-transdisciplinary-research/"
+                  >
+                    Feature Article 2
+                  </a>
+
                   <a
                     style={{
                       fontSize: "1.2rem",
@@ -96,7 +154,7 @@ export default class Projects extends React.Component {
                     target="_blank"
                     href="http://ndabaonline.ukzn.ac.za/UkzndabaStory/isizulu/Big%20Data%20for%20Science%20and%20Society%20Launch%20Goes%20Big"
                   >
-                    Feature Article 2
+                    Feature Article 3
                   </a>
                 </p>
               </Carousel.Item>
@@ -166,6 +224,7 @@ export default class Projects extends React.Component {
                     style={{
                       fontSize: "1.2rem",
                       fontWeight: "600",
+                      marginRight: "2rem",
                     }}
                     className="link"
                     target="_blank"
@@ -173,8 +232,31 @@ export default class Projects extends React.Component {
                   >
                     Feature Article 1
                   </a>
-                </p>
-                <p>
+
+                  <a
+                    style={{
+                      fontSize: "1.2rem",
+                      fontWeight: "600",
+                      marginRight: "2rem",
+                    }}
+                    className="link"
+                    target="_blank"
+                    href="http://ndabaonline.ukzn.ac.za/StoryPrinter.aspx?id=1586"
+                  >
+                    Feature Article 2
+                  </a>
+                  <a
+                    style={{
+                      fontSize: "1.2rem",
+                      fontWeight: "600",
+                      marginRight: "2rem",
+                    }}
+                    className="link"
+                    target="_blank"
+                    href="https://www.ukzn.ac.za/news/ukzn-anthropologist-gets-grant-to-join-uct-project-on-sexuality-and-rights/"
+                  >
+                    Feature Article 3
+                  </a>
                   <a
                     style={{
                       fontSize: "1.2rem",
@@ -182,9 +264,9 @@ export default class Projects extends React.Component {
                     }}
                     className="link"
                     target="_blank"
-                    href="http://ndabaonline.ukzn.ac.za/StoryPrinter.aspx?id=1586"
+                    href="https://www.ukzn.ac.za/news/excavating-body-stories-workshop-a-success/"
                   >
-                    Feature Article 2
+                    Feature Article 4
                   </a>
                 </p>
               </Carousel.Item>
