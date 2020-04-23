@@ -62,7 +62,7 @@ export default class Presentations extends React.Component {
                 <a
                   className="link"
                   target="_blank"
-                  href="https://www.tandfonline.com/doi/abs/10.1080/13032917.2018.1550662?src=recsys&journalCode=rana20"
+                  href="http://ndabaonline.ukzn.ac.za/UkzndabaStory/NdabaOnline-Vol2-Issue34/UKZN%20Academic%20Invited%20to%20Present%20Pre-Conference%20Teaching%20Seminar%20in%20Turkey/"
                 >
                   Public Seminar: Ethics around Scholar Publishing
                 </a>
@@ -137,7 +137,7 @@ export default class Presentations extends React.Component {
                   target="_blank"
                   href="http://enewsletter.ukzn.ac.za/Story.aspx?id=116&storyid=1505"
                 >
-                  Keynote Address: Women’s Empowerment and Traditional Masculine
+                  Keynote Address: Women’s Empowerment and Traditional Masculinities
                 </a>
               </h6>
             </Col>
@@ -146,7 +146,7 @@ export default class Presentations extends React.Component {
                 American University at Rome, Italy (2018)
               </h6>
               <h6 className="location">
-                Interdisciplinary Tourism Conference, Tourkey (2018)
+                Interdisciplinary Tourism Conference, Turkey (2018)
               </h6>
               <h6 className="location">
                 Graduate Institute, Gender Centre, Switzerland (2017)

@@ -136,23 +136,22 @@ export default class Projects extends React.Component {
                     style={{
                       fontSize: "1.2rem",
                       fontWeight: "600",
+                    }}
+                    className="link"
+                    target="_blank"
+                    href="http://ndabaonline.ukzn.ac.za/UkzndabaStory/isizulu/Big%20Data%20for%20Science%20and%20Society%20Launch%20Goes%20Big"
+                  >
+                    Feature Article 2
+                  </a>
+                  <a
+                    style={{
+                      fontSize: "1.2rem",
+                      fontWeight: "600",
                       marginRight: "2rem",
                     }}
                     className="link"
                     target="_blank"
                     href="https://quantum.ukzn.ac.za/news/big-data-for-science-and-society-flagships-project-workshop-promotes-transdisciplinary-research/"
-                  >
-                    Feature Article 2
-                  </a>
-
-                  <a
-                    style={{
-                      fontSize: "1.2rem",
-                      fontWeight: "600",
-                    }}
-                    className="link"
-                    target="_blank"
-                    href="http://ndabaonline.ukzn.ac.za/UkzndabaStory/isizulu/Big%20Data%20for%20Science%20and%20Society%20Launch%20Goes%20Big"
                   >
                     Feature Article 3
                   </a>
@@ -228,20 +227,18 @@ export default class Projects extends React.Component {
                     }}
                     className="link"
                     target="_blank"
-                    href="http://ndabaonline.ukzn.ac.za/UkzndabaStory/Vol4-Issue22/UKZN%20Students%20Part%20of%20SADC%20InterInstitutional%20Workshop/"
+                    href="https://www.ukzn.ac.za/news/ukzn-anthropologist-gets-grant-to-join-uct-project-on-sexuality-and-rights/"
                   >
                     Feature Article 1
                   </a>
-
                   <a
                     style={{
                       fontSize: "1.2rem",
                       fontWeight: "600",
-                      marginRight: "2rem",
                     }}
                     className="link"
                     target="_blank"
-                    href="http://ndabaonline.ukzn.ac.za/StoryPrinter.aspx?id=1586"
+                    href="https://www.ukzn.ac.za/news/excavating-body-stories-workshop-a-success/"
                   >
                     Feature Article 2
                   </a>
@@ -253,20 +250,9 @@ export default class Projects extends React.Component {
                     }}
                     className="link"
                     target="_blank"
-                    href="https://www.ukzn.ac.za/news/ukzn-anthropologist-gets-grant-to-join-uct-project-on-sexuality-and-rights/"
+                    href="http://ndabaonline.ukzn.ac.za/UkzndabaStory/Vol4-Issue22/UKZN%20Students%20Part%20of%20SADC%20InterInstitutional%20Workshop/"
                   >
                     Feature Article 3
-                  </a>
-                  <a
-                    style={{
-                      fontSize: "1.2rem",
-                      fontWeight: "600",
-                    }}
-                    className="link"
-                    target="_blank"
-                    href="https://www.ukzn.ac.za/news/excavating-body-stories-workshop-a-success/"
-                  >
-                    Feature Article 4
                   </a>
                 </p>
               </Carousel.Item>

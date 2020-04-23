@@ -71,6 +71,9 @@ export default class Awards extends React.Component {
                   <h1 className="smallText">2007</h1>
                 </Col>
                 <Col>
+                <h1 className="award">
+                    R5.9M Grant, African Cities Flagship Project
+                  </h1>
                   <h1 className="award">
                     R9M Grant, Big Data Flagship Project
                   </h1>
@@ -86,13 +89,14 @@ export default class Awards extends React.Component {
                   <h1 className="award">African Origins Grant Award</h1>
                 </Col>
                 <Col>
+                <h1 className="smallText">University of KwaZulu Natal</h1>
                   <h1 className="smallText">University of KwaZulu Natal</h1>
                   <h1 className="smallText">The Andrew W. Mellon Foundation</h1>
                   <h1 className="smallText">National Research Foundation</h1>
                   <h1 className="smallText">Ford Foundation | African Gender Institute</h1>
                   <h1 className="smallText">National Research Foundation</h1>
-                  <h1 className="smallText">National Research Foundation</h1>
-                  <h1 className="smallText">National Research Foundation</h1>
+                  <h1 className="smallText">University of KwaZulu Natal</h1>
+                  <h1 className="smallText">University of KwaZulu Natal</h1>
                   <h1 className="smallText">National Research Foundation</h1>
                   <h1 className="smallText">National Research Foundation</h1>
                 </Col>
@@ -134,12 +138,12 @@ export default class Awards extends React.Component {
                 <Col>
                   <h1 className="smallText">National Research Foundation</h1>
                   <h1 className="smallText">
-                    Bayreuth University Institute of African Studies
+                    Bayreuth University, Institute of African Studies
                   </h1>
                   <h1 className="smallText">Byron Katie Academy, Netherlands</h1>
                   <h1 className="smallText">National Research Foundation</h1>
                   <h1 className="smallText">National Research Foundation</h1>
-                  <h1 className="smallText">World Council of Religions</h1>
+                  <h1 className="smallText">World Council of Religions, USA</h1>
                 </Col>
               </Row>
             </Tab>
