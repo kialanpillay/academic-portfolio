@@ -31,6 +31,8 @@ export default class Projects extends React.Component {
                 width: "100%",
                 color: "#282c34",
               }}
+              interval={10000}
+              pause={'hover'}
             >
               <Carousel.Item
                 style={{
@@ -136,6 +138,7 @@ export default class Projects extends React.Component {
                     style={{
                       fontSize: "1.2rem",
                       fontWeight: "600",
+                      marginRight: "2rem",
                     }}
                     className="link"
                     target="_blank"
