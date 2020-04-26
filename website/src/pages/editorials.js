@@ -45,7 +45,7 @@ export default class Editorial extends React.Component {
                 contentArrowStyle={{
                   borderRight: "8px solid  rgb(245, 245, 245)",
                 }}
-                date="2016 - Present"
+                date=""
                 iconStyle={{ background: "rgb(246, 196, 68)", color: "#fff" }}
               >
                 <h3 className="vertical-timeline-element-title">

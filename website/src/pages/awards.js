@@ -60,6 +60,7 @@ export default class Awards extends React.Component {
                     marginRight: "1rem",
                   }}
                 >
+                  <h1 className="smallText">2020</h1>
                   <h1 className="smallText">2019</h1>
                   <h1 className="smallText">2018</h1>
                   <h1 className="smallText">2018</h1>
@@ -71,7 +72,7 @@ export default class Awards extends React.Component {
                   <h1 className="smallText">2007</h1>
                 </Col>
                 <Col>
-                <h1 className="award">
+                  <h1 className="award">
                     R5.9M Grant, African Cities Flagship Project
                   </h1>
                   <h1 className="award">
@@ -89,11 +90,13 @@ export default class Awards extends React.Component {
                   <h1 className="award">African Origins Grant Award</h1>
                 </Col>
                 <Col>
-                <h1 className="smallText">University of KwaZulu Natal</h1>
+                  <h1 className="smallText">University of KwaZulu Natal</h1>
                   <h1 className="smallText">University of KwaZulu Natal</h1>
                   <h1 className="smallText">The Andrew W. Mellon Foundation</h1>
                   <h1 className="smallText">National Research Foundation</h1>
-                  <h1 className="smallText">Ford Foundation | African Gender Institute</h1>
+                  <h1 className="smallText">
+                    Ford Foundation | African Gender Institute
+                  </h1>
                   <h1 className="smallText">National Research Foundation</h1>
                   <h1 className="smallText">University of KwaZulu Natal</h1>
                   <h1 className="smallText">University of KwaZulu Natal</h1>
@@ -140,7 +143,9 @@ export default class Awards extends React.Component {
                   <h1 className="smallText">
                     Bayreuth University, Institute of African Studies
                   </h1>
-                  <h1 className="smallText">Byron Katie Academy, Netherlands</h1>
+                  <h1 className="smallText">
+                    Byron Katie Academy, Netherlands
+                  </h1>
                   <h1 className="smallText">National Research Foundation</h1>
                   <h1 className="smallText">National Research Foundation</h1>
                   <h1 className="smallText">World Council of Religions, USA</h1>
@@ -188,14 +193,23 @@ export default class Awards extends React.Component {
                   <h1 className="award">
                     College of Humanities Excellence Researcher Award
                   </h1>
-                  <h1 className="award">Top Published Woman Researcher</h1>
+                  <a
+                    className="link"
+                    target="_blank"
+                    href="http://ndabaonline.ukzn.ac.za/UkzndabaStory/NdabaOnline-Vol2-Issue40/Top%20Published%20UKZN%20Woman%20for%202014%20Announced/"
+                  >
+                    <h1 className="award">Top Published Woman Researcher</h1>
+                  </a>
+
                   <h1 className="award">Top 30 Researcher Award</h1>
                   <h1 className="award">National Women in Science Award</h1>
                   <h1 className="award">
                     College Excellence Award for Top Emerging Researcher
                   </h1>
                   <h1 className="award">Top 30 Researcher Award</h1>
-                  <h1 className="award">Top Published Female Researcher Award</h1>
+                  <h1 className="award">
+                    Top Published Female Researcher Award
+                  </h1>
                   <h1 className="award">Top 10 Researcher Award</h1>
                   <h1 className="award">Top 30 Researcher Award</h1>
                 </Col>
