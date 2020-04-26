@@ -141,7 +141,7 @@ export default class Awards extends React.Component {
                 <Col>
                   <h1 className="smallText">National Research Foundation</h1>
                   <h1 className="smallText">
-                    Bayreuth University, Institute of African Studies
+                    Bayreuth University, Germany
                   </h1>
                   <h1 className="smallText">
                     Byron Katie Academy, Netherlands
